@@ -69,27 +69,40 @@ def save(name, arr):
     print(f"  {name}: {arr.dtype} mean {arr.mean():.1f}", flush=True)
 
 
-def burn_lines(layer, keep=None, columns=("OBJEKTART",)):
-    df = pyogrio.read_dataframe(TLM[0], layer=layer, columns=list(columns))
-    if keep is not None:
-        df = df[keep(df)]
-    df = df[df.geometry.notna()].to_crs(3857)
-    print(f"    {layer}: {len(df):,} features", flush=True)
-    return features.rasterize(((g, 1) for g in df.geometry), out_shape=FSHAPE, transform=FT,
-                              fill=0, dtype="uint8", all_touched=True).astype(bool)
+def burn_lines(layer, keep=None, columns=("OBJEKTART",), batch=400_000):
+    """Rasterise a TLM layer in batches (millions of features would not fit in memory at once)."""
+    total = pyogrio.read_info(TLM[0], layer=layer)["features"]
+    out = np.zeros(FSHAPE, bool)
+    n = 0
+    for start in range(0, total, batch):
+        df = pyogrio.read_dataframe(TLM[0], layer=layer, columns=list(columns), skip_features=start, max_features=batch)
+        if keep is not None:
+            df = df[keep(df)]
+        df = df[df.geometry.notna()].to_crs(3857)
+        if len(df):
+            out |= features.rasterize(((g, 1) for g in df.geometry), out_shape=FSHAPE, transform=FT,
+                                      fill=0, dtype="uint8", all_touched=True).astype(bool)
+        n += len(df)
+        del df
+    print(f"    {layer}: {n:,} features", flush=True)
+    return out
 
 
-def tlm():
+def water():
     print("water…", flush=True)
-    water = burn_lines("TLM_FLIESSGEWAESSER", keep=lambda d: (d.VERLAUF != 200) & (d.OBJEKTART != 6),
-                       columns=("OBJEKTART", "VERLAUF"))
-    water |= burn_lines("TLM_STEHENDES_GEWAESSER")
-    save("water", np.clip(np.round(pool_min(distance_m(water)) / 10), 0, 250).astype("uint8"))
-    del water
+    w = burn_lines("TLM_FLIESSGEWAESSER", keep=lambda d: (d.VERLAUF != 200) & (d.OBJEKTART != 6),
+                   columns=("OBJEKTART", "VERLAUF"))
+    w |= burn_lines("TLM_STEHENDES_GEWAESSER")
+    save("water", np.clip(np.round(pool_min(distance_m(w)) / 10), 0, 250).astype("uint8"))
+
+
+def paths():
     print("paths & roads…", flush=True)
-    paths = burn_lines("TLM_STRASSE")
-    save("paths", np.clip(np.round(pool_min(distance_m(paths)) / 10), 0, 250).astype("uint8"))
-    del paths
+    p = burn_lines("TLM_STRASSE")
+    save("paths", np.clip(np.round(pool_min(distance_m(p)) / 10), 0, 250).astype("uint8"))
+
+
+def buildings():
     print("buildings…", flush=True)
     b = burn_lines("TLM_GEBAEUDE_FOOTPRINT")
     save("buildings", np.clip(np.round(pool_min(distance_m(b)) / 20), 0, 250).astype("uint8"))
@@ -131,6 +144,6 @@ def habitat():
 
 
 if __name__ == "__main__":
-    steps = {"tlm": tlm, "habitat": habitat}
+    steps = {"water": water, "paths": paths, "buildings": buildings, "habitat": habitat}
     for name in (sys.argv[1:] or steps):
         steps[name]()
