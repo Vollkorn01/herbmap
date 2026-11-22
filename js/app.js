@@ -1,6 +1,8 @@
 (async function () {
   "use strict";
   const M = window.HerbModel;
+  const V = window.HM_VERSION || "";   // cache-busting: changes with every deploy
+  const ver = (url) => `${url}?v=${V}`;
 
   const EVIDENCE_LABEL = { good: "Good evidence", some: "Some evidence", traditional: "Traditional use" };
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -35,11 +37,11 @@
     return new Uint8Array(await new Response(ds).arrayBuffer());
   }
   const [HERBS, GRID, META, OVMETA, PHOTOS] = await Promise.all([
-    fetch("data/herbs.json").then((r) => r.json()),
-    fetch("data/grid.json").then((r) => r.json()),
-    fetch("data/env/meta.json").then((r) => r.json()),
-    fetch("data/overview/meta.json").then((r) => r.json()),
-    fetch("data/photos.json").then((r) => r.json()).catch(() => ({}))
+    fetch(ver("data/herbs.json")).then((r) => r.json()),
+    fetch(ver("data/grid.json")).then((r) => r.json()),
+    fetch(ver("data/env/meta.json")).then((r) => r.json()),
+    fetch(ver("data/overview/meta.json")).then((r) => r.json()),
+    fetch(ver("data/photos.json")).then((r) => r.json()).catch(() => ({}))
   ]);
   document.getElementById("loading").remove();
   const herbById = Object.fromEntries(HERBS.map((h) => [h.id, h]));
@@ -116,7 +118,7 @@
   const OW = OVMETA.width, OH = OVMETA.height;
   const overviews = new Map();
   function getOverview(id) {
-    if (!overviews.has(id)) overviews.set(id, gunzipFetch(`data/overview/${id}.gz`));
+    if (!overviews.has(id)) overviews.set(id, gunzipFetch(ver(`data/overview/${id}.gz`)));
     return overviews.get(id);
   }
   const ovCanvases = new Map();
