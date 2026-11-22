@@ -266,11 +266,32 @@
   const FACTOR_LABEL = { habitat: "Habitat", altitude: "Altitude", moisture: "Moisture", light: "Light", soil: "Soil", warmth: "Warmth", forest: "Forest type" };
   const NEAR_LABEL = { water: "near water", edge: "near the forest edge", hedge: "near hedges/trees", buildings: "near buildings", paths: "along paths" };
 
+  // Spot details: a bottom sheet on phones, a panel docked on the right of the map on desktop.
+  // (A popup tied to the point can be cut off when the map cannot pan far enough.)
+  const sheet = document.getElementById("spotSheet"), sheetBody = document.getElementById("sheetBody");
+  let spotMarker = null;
+  function closeSpot() {
+    sheet.hidden = true;
+    document.body.classList.remove("sheet-open");
+    legendEl.classList.remove("hidden");
+    if (spotMarker) { spotMarker.remove(); spotMarker = null; }
+  }
+  function openSpot(latlng) {
+    if (spotMarker) spotMarker.remove();
+    spotMarker = L.circleMarker(latlng, { radius: 8, color: "#fff", weight: 3, fillColor: "#b5452a", fillOpacity: 1, interactive: false }).addTo(map);
+    sheet.hidden = false;
+    document.body.classList.add("sheet-open");
+    if (window.matchMedia("(max-width: 820px)").matches) legendEl.classList.add("hidden");
+    sheetBody.scrollTop = 0;
+    return { setContent: (html) => { sheetBody.innerHTML = html; }, getElement: () => sheetBody };
+  }
+
   async function showPointPopup(latlng, title) {
     const p = px11(latlng);
     const gx = Math.floor(p.x), gy = Math.floor(p.y);
     const cx = gx >> 8, cy = gy >> 8, idx = (gy & 255) * 256 + (gx & 255);
-    const popup = L.popup({ maxWidth: 340, minWidth: 260 }).setLatLng(latlng).setContent('<div class="popup">Loading…</div>').openOn(map);
+    const popup = openSpot(latlng);
+    popup.setContent('<div class="popup">Loading…</div>');
     let buf;
     try { buf = await getChunk(cx, cy); } catch (e) { popup.setContent('<div class="popup">Could not load map data here.</div>'); return; }
     if (!buf || !buf[idx]) { popup.setContent('<div class="popup">Outside the mapped area.</div>'); return; }
@@ -321,8 +342,8 @@
   }
 
   const legendEl = document.getElementById("legend");
-  map.on("popupopen", () => legendEl.classList.add("hidden"));
-  map.on("popupclose", () => legendEl.classList.remove("hidden"));
+  document.getElementById("sheetClose").addEventListener("click", () => closeSpot());
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSpot(); });
   map.on("click", (e) => { document.getElementById("mapHint").classList.add("gone"); showPointPopup(e.latlng); });
 
   let locationMarker = null;
@@ -501,7 +522,7 @@
     document.getElementById("panel").scrollTop = 0;
     document.getElementById("spotsBtn").hidden = false;
     redraw();
-    if (opts.latlng) showPointPopup(opts.latlng); else map.closePopup();
+    if (opts.latlng) showPointPopup(opts.latlng); else closeSpot();
     history.replaceState(null, "", "#" + herb.id);
   }
   function showList() {
@@ -510,7 +531,7 @@
     document.getElementById("listView").hidden = false;
     document.getElementById("detailView").hidden = true;
     document.getElementById("spotsBtn").hidden = true;
-    map.closePopup();
+    closeSpot();
     redraw();
     history.replaceState(null, "", location.pathname + location.search);
   }
