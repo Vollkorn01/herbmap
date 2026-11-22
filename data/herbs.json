@@ -84,6 +84,7 @@
   "lookalikes": "Can be confused with poisonous members of the carrot family such as hemlock. Yarrow has feathery, finely divided leaves and a tough, hairy stem.",
   "model": {
    "habitats": {
+    "4.0.3": 0.5,
     "4.5.1": 1,
     "4.5.2": 0.9,
     "4.5.3": 0.9,
@@ -144,6 +145,8 @@
   "lookalikes": "Hold a leaf against the light: true St John's wort shows tiny see-through dots, and crushed flowers stain fingers red.",
   "model": {
    "habitats": {
+    "4.0.3": 0.4,
+    "6.3.4": 0.4,
     "4.2.4": 1,
     "4.1": 0.6,
     "5.3": 0.45,
@@ -337,6 +340,8 @@
   "protection": "Declining because of meadow fertilisation; picking is restricted in several cantons. Please leave wild plants and buy cultivated arnica.",
   "model": {
    "habitats": {
+    "4.3.6": 0.5,
+    "4.3.7": 0.3,
     "4.3.5": 1,
     "5.4": 0.6,
     "4.3.3": 0.4,
@@ -450,6 +455,7 @@
   "lookalikes": "Several closely related wild thymes grow in Switzerland; they are used the same way.",
   "model": {
    "habitats": {
+    "4.3.6": 0.6,
     "4.2.4": 1,
     "4.1": 0.9,
     "4.3.1": 0.8,
@@ -571,6 +577,7 @@
   "lookalikes": "Easy to recognise by its long leaves with parallel veins.",
   "model": {
    "habitats": {
+    "4.0.3": 0.5,
     "4.5.1": 1,
     "4.5.3": 1,
     "4.2.4": 0.8,
@@ -751,6 +758,8 @@
   "lookalikes": "Bog bilberry is similar. Never confuse with poisonous berries such as deadly nightshade or herb paris.",
   "model": {
    "habitats": {
+    "6.3.7": 0.4,
+    "6.3.6": 0.5,
     "6.6.2": 1,
     "6.6": 0.8,
     "6.6.1": 0.8,
@@ -1195,6 +1204,7 @@
   "lookalikes": "Several other mulleins grow in Switzerland; dense-flowered mullein (V. densiflorum) is used the same way.",
   "model": {
    "habitats": {
+    "4.0.3": 0.4,
     "7.1": 0.8,
     "9.1": 0.8,
     "9.0.1": 0.7,
@@ -1404,6 +1414,7 @@
   "protection": "Protected in some cantons — please buy rather than dig the roots.",
   "model": {
    "habitats": {
+    "6.3.4": 0.5,
     "4.2.4": 1,
     "4.5.1": 0.6,
     "4.5.2": 0.5,
@@ -1460,6 +1471,8 @@
   "lookalikes": "Savin juniper (Sefistrauch), found in dry inner-Alpine valleys, is highly poisonous: it has scale-like leaves and smells unpleasant.",
   "model": {
    "habitats": {
+    "5.4.2": 0.6,
+    "6.4.2": 0.8,
     "4.2.4": 0.6,
     "4.3": 0.6,
     "4.3.5": 0.6,
@@ -1570,6 +1583,7 @@
   "lookalikes": "Wild basil and other mints grow nearby; oregano has a distinct smell.",
   "model": {
    "habitats": {
+    "6.3.4": 0.6,
     "4.2.4": 1,
     "5.3": 0.4,
     "6.4": 0.6,
