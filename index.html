@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Herb Map</title>
+  <meta name="description" content="An interactive map of medicinal herbs: where they grow, how likely you are to find them, and what they are used for.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%232f6b3f' d='M16 30c0-9 2-15 10-22-9 1-14 6-15 13-1-4-3-7-7-9 1 6 4 10 10 12v6z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 30c0-9 2-15 10-22-9 1-14 6-15 13-1-4-3-7-7-9 1 6 4 10 10 12v6z"/></svg>
+      <div>
+        <h1>Herb Map</h1>
+        <p class="tagline">Where medicinal herbs grow — and what they're good for</p>
+      </div>
+    </div>
+    <button id="aboutBtn" class="ghost-btn" type="button">About &amp; safety</button>
+  </header>
+
+  <main class="layout">
+    <aside class="panel" id="panel">
+      <section id="listView">
+        <div class="controls">
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+            <input id="search" type="search" placeholder="Search herbs, Latin names, uses…" autocomplete="off">
+          </label>
+          <div class="chips" id="useChips" role="group" aria-label="Filter by use"></div>
+          <div class="toggles">
+            <label class="switch">
+              <input type="checkbox" id="seasonToggle">
+              <span>Findable this month <em id="monthName"></em></span>
+            </label>
+            <button id="locateBtn" class="ghost-btn small" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg>
+              Herbs near me
+            </button>
+          </div>
+        </div>
+        <p class="count" id="count"></p>
+        <ul class="herb-list" id="herbList"></ul>
+      </section>
+
+      <section id="detailView" hidden>
+        <button class="back-btn" id="backBtn" type="button">← All herbs</button>
+        <article id="detail"></article>
+      </section>
+    </aside>
+
+    <div class="map-wrap">
+      <div id="map" aria-label="Map of medicinal herb distribution"></div>
+      <div class="legend" id="legend"></div>
+      <div class="map-hint" id="mapHint">Click anywhere on the map to see which herbs you're likely to find there.</div>
+    </div>
+  </main>
+
+  <dialog id="aboutDialog">
+    <form method="dialog">
+      <h2>About this map</h2>
+      <p>Herb Map shows the approximate natural and naturalised ranges of common medicinal plants. Each area is rated by how likely you are to come across the herb in suitable habitat:</p>
+      <ul>
+        <li><b>High</b> — common; you will usually find it in the right habitat.</li>
+        <li><b>Medium</b> — occasional or local; you may need to search.</li>
+        <li><b>Low</b> — rare, endangered, scattered or only as garden escapes.</li>
+      </ul>
+      <p>Ranges are drawn by hand from botanical references and are deliberately coarse. Within a region, a plant only grows where its habitat suits it — a meadow herb won't be found in a city centre or on a glacier.</p>
+      <h3>Safety</h3>
+      <p class="warn">This site is for education only and is not medical advice. Herbs can cause allergies, side effects and serious interactions with medication. Talk to a doctor or pharmacist before using herbs medicinally, especially if you are pregnant, breastfeeding, taking medication or treating a child.</p>
+      <p class="warn">Never eat a wild plant unless you are 100% sure of its identity — several herbs have deadly lookalikes. Respect local laws: many plants (e.g. arnica, wild ginseng) are protected.</p>
+      <h3>Evidence levels</h3>
+      <ul>
+        <li><b>Traditional use</b> — long history of use, little clinical research.</li>
+        <li><b>Some evidence</b> — some clinical studies, often small or mixed.</li>
+        <li><b>Good evidence</b> — several well-designed clinical trials.</li>
+      </ul>
+      <menu><button class="primary-btn" value="close">Got it</button></menu>
+    </form>
+  </dialog>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/regions.js"></script>
+  <script src="js/herbs.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
