@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=202611221846">
+  <link rel="stylesheet" href="css/style.css?v=202611221848">
 </head>
 <body>
   <header class="topbar">
@@ -38,10 +38,6 @@
               <input type="checkbox" id="seasonToggle">
               <span>Findable this month <em id="monthName"></em></span>
             </label>
-            <button id="locateBtn" class="ghost-btn small" type="button">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg>
-              Herbs near me
-            </button>
           </div>
         </div>
         <p class="count" id="count"></p>
@@ -58,7 +54,7 @@
       <div id="map" aria-label="Map of medicinal herb distribution"></div>
       <div class="legend" id="legend"></div>
       <div class="map-hint" id="mapHint">Click anywhere on the map to see which herbs grow there and why.</div>
-      <button class="spots-btn" id="spotsBtn" type="button" hidden>★ Best spots in view</button>
+      <button class="spots-btn" id="spotsBtn" type="button" hidden>★ Best spots<span class="long"> in view</span></button>
       <div class="spot-sheet" id="spotSheet" role="dialog" aria-label="Spot details" hidden>
         <div class="sheet-head"><span>Spot details</span><button type="button" id="sheetClose" aria-label="Close">✕</button></div>
         <div class="sheet-body" id="sheetBody"></div>
@@ -105,8 +101,8 @@
   </dialog>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script>window.HM_VERSION = "202611221846";</script>
-  <script src="js/model.js?v=202611221846"></script>
-  <script src="js/app.js?v=202611221846"></script>
+  <script>window.HM_VERSION = "202611221848";</script>
+  <script src="js/model.js?v=202611221848"></script>
+  <script src="js/app.js?v=202611221848"></script>
 </body>
 </html>

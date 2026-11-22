@@ -288,7 +288,7 @@
     return { setContent: (html) => { sheetBody.innerHTML = html; }, getElement: () => sheetBody };
   }
 
-  async function showPointPopup(latlng, title) {
+  async function showPointPopup(latlng, title, radius = 0) {
     const p = px11(latlng);
     const gx = Math.floor(p.x), gy = Math.floor(p.y);
     const cx = gx >> 8, cy = gy >> 8, idx = (gy & 255) * 256 + (gx & 255);
@@ -300,7 +300,25 @@
     const code = META.codes[buf[idx] - 1];
     const hl = habitatLabel(code);
     const herbs = visibleHerbs();
-    const results = herbs.map((h) => ({ h, s: scoreCell(h.id, buf, idx, gx, gy) })).filter((r) => r.s >= 10).sort((a, b) => b.s - a.s);
+    let results = herbs.map((h) => ({ h, s: scoreCell(h.id, buf, idx, gx, gy) })).filter((r) => r.s >= 10 && r.s !== 255);
+    if (radius) {
+      // best score per herb within `radius` cells (~50 m each) around the point
+      const best = new Map();
+      for (let dy = -radius; dy <= radius; dy++) for (let dx = -radius; dx <= radius; dx++) {
+        if (dx * dx + dy * dy > radius * radius) continue;
+        const x = gx + dx, y = gy + dy;
+        let b2;
+        try { b2 = await getChunk(x >> 8, y >> 8); } catch (e) { continue; }
+        if (!b2) continue;
+        const i2 = (y & 255) * 256 + (x & 255);
+        for (const h of herbs) {
+          const sc = scoreCell(h.id, b2, i2, x, y);
+          if (sc !== 255 && sc > (best.get(h.id) || 0)) best.set(h.id, sc);
+        }
+      }
+      results = herbs.map((h) => ({ h, s: best.get(h.id) || 0 })).filter((r) => r.s >= 10);
+    }
+    results.sort((a, b) => b.s - a.s);
     const sel = state.selected;
     const base = M.habitatScore(prepared[(sel || HERBS[0]).id], buf[idx], cellReader(buf, idx), true);
     const env = base.env || M.indices(cellReader(buf, idx));
@@ -332,13 +350,13 @@
     }
     const list = results.length
       ? `<ul>${results.slice(0, 12).map((r) => `<li data-id="${r.h.id}"><span class="dot" style="background:${rgb(rampColor(r.s))}"></span>${esc(r.h.name)}<span class="lv">${r.s}</span></li>`).join("")}</ul>`
-      : `<p class="none">No listed herb is likely right here.</p>`;
+      : `<p class="none">No listed herb is likely right here${radius ? " or nearby" : ""}.</p>`;
     popup.setContent(`<div class="popup">
       ${title ? `<h4>${esc(title)}</h4>` : ""}
       <div class="hab"><b>${esc(hl.en)}</b>${hl.de && hl.de !== hl.en ? `<br><span>${esc(hl.de)}</span>` : ""}</div>
       <div class="env">${envBits.map((b) => `<span>${esc(b)}</span>`).join("")}</div>
       ${selHtml}
-      <div class="list-title">Herbs likely at this spot</div>${list}</div>`);
+      <div class="list-title">${radius ? `Herbs likely within ~${radius * 50} m` : "Herbs likely at this spot"}</div>${list}</div>`);
     popup.getElement()?.querySelectorAll("li[data-id]").forEach((li) =>
       li.addEventListener("click", () => selectHerb(li.dataset.id, { latlng })));
   }
@@ -349,6 +367,21 @@
   map.on("click", (e) => { document.getElementById("mapHint").classList.add("gone"); showPointPopup(e.latlng); });
 
   let locationMarker = null;
+  // Round "my location" button in the bottom-right corner of the map
+  const LocateControl = L.Control.extend({
+    options: { position: "bottomright" },
+    onAdd() {
+      const btn = L.DomUtil.create("button", "locate-btn");
+      btn.type = "button";
+      btn.id = "locateBtn";
+      btn.title = "Show herbs at my location";
+      btn.setAttribute("aria-label", "Show herbs at my location");
+      btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2" fill="currentColor"/><circle cx="12" cy="12" r="7.5"/><path d="M12 1.5v3.5M12 19v3.5M1.5 12H5M19 12h3.5"/></svg>';
+      L.DomEvent.disableClickPropagation(btn);
+      return btn;
+    }
+  });
+  new LocateControl().addTo(map);
   document.getElementById("locateBtn").addEventListener("click", () => {
     if (!navigator.geolocation) return alert("Your browser can't share its location.");
     navigator.geolocation.getCurrentPosition((pos) => {
@@ -357,7 +390,7 @@
       if (locationMarker) locationMarker.remove();
       locationMarker = L.circleMarker(ll, { radius: 7, color: "#fff", weight: 2, fillColor: "#2563eb", fillOpacity: 1 }).addTo(map);
       map.flyTo(ll, 14, { duration: 0.8 });
-      map.once("moveend", () => showPointPopup(ll, "Your location"));
+      map.once("moveend", () => showPointPopup(ll, "Your location", 3));
       document.getElementById("mapHint").classList.add("gone");
     }, () => alert("Couldn't get your location. You can click on the map instead."), { timeout: 10000 });
   });
