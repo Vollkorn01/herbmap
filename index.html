@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Herb Map</title>
-  <meta name="description" content="An interactive map of medicinal herbs: where they grow, how likely you are to find them, and what they are used for.">
+  <title>Herb Map Switzerland</title>
+  <meta name="description" content="Where to find medicinal herbs in Switzerland: likelihood maps from real plant records on swisstopo maps, plus healing properties and safety notes.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%232f6b3f' d='M16 30c0-9 2-15 10-22-9 1-14 6-15 13-1-4-3-7-7-9 1 6 4 10 10 12v6z'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
       <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 30c0-9 2-15 10-22-9 1-14 6-15 13-1-4-3-7-7-9 1 6 4 10 10 12v6z"/></svg>
       <div>
         <h1>Herb Map</h1>
-        <p class="tagline">Where medicinal herbs grow — and what they're good for</p>
+        <p class="tagline">Where to find medicinal herbs in Switzerland — and what they're good for</p>
       </div>
     </div>
     <button id="aboutBtn" class="ghost-btn" type="button">About &amp; safety</button>
@@ -30,7 +30,7 @@
         <div class="controls">
           <label class="search">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-            <input id="search" type="search" placeholder="Search herbs, Latin names, uses…" autocomplete="off">
+            <input id="search" type="search" placeholder="Search herbs, German or Latin names, uses…" autocomplete="off">
           </label>
           <div class="chips" id="useChips" role="group" aria-label="Filter by use"></div>
           <div class="toggles">
@@ -58,22 +58,26 @@
       <div id="map" aria-label="Map of medicinal herb distribution"></div>
       <div class="legend" id="legend"></div>
       <div class="map-hint" id="mapHint">Click anywhere on the map to see which herbs you're likely to find there.</div>
+      <div class="loading" id="loading">Loading plant records…</div>
     </div>
   </main>
 
   <dialog id="aboutDialog">
     <form method="dialog">
       <h2>About this map</h2>
-      <p>Herb Map shows the approximate natural and naturalised ranges of common medicinal plants. Each area is rated by how likely you are to come across the herb in suitable habitat:</p>
+      <p>The likelihood maps are based on <b>real plant records</b> collected in Switzerland since 1990 (from <a href="https://www.gbif.org" target="_blank" rel="noopener">GBIF</a>, which includes data from Info Flora, herbaria and citizen-science projects). Most records are reported on a 5&nbsp;km grid, so the map is smoothed between those points: treat it as a regional guide (about 5&nbsp;km), not a pinpoint.</p>
+      <p>For each square we compare how often a herb was recorded with how many plants were recorded there in total. This corrects for the fact that some areas are surveyed far more than others. The result is scaled so that <b>100</b> means the herb is as frequent as in its best 5% of areas. Herbs that are scarce everywhere (e.g. lemon balm, lungwort) never reach "high".</p>
       <ul>
-        <li><b>High</b> — common; you will usually find it in the right habitat.</li>
-        <li><b>Medium</b> — occasional or local; you may need to search.</li>
-        <li><b>Low</b> — rare, endangered, scattered or only as garden escapes.</li>
+        <li><b>High (60–100)</b> — the herb is a common part of the local flora.</li>
+        <li><b>Medium (30–59)</b> — regularly recorded; worth a look in suitable habitat.</li>
+        <li><b>Low (under 30)</b> — recorded occasionally or nearby.</li>
+        <li><b>No colour</b> — not recorded nearby, or too few plant records to say.</li>
       </ul>
-      <p>Ranges are drawn by hand from botanical references and are deliberately coarse. Within a region, a plant only grows where its habitat suits it — a meadow herb won't be found in a city centre or on a glacier.</p>
+      <p>Even in a "high" square, a plant only grows in its habitat — a wetland herb won't be on a dry slope. Records are not a guarantee, and absence of records is not proof of absence.</p>
+      <p>Maps © <a href="https://www.swisstopo.admin.ch" target="_blank" rel="noopener">swisstopo</a>. Plant records: GBIF.org. Inspired by <a href="https://www.pilzradar.ch" target="_blank" rel="noopener">pilzradar.ch</a>.</p>
       <h3>Safety</h3>
       <p class="warn">This site is for education only and is not medical advice. Herbs can cause allergies, side effects and serious interactions with medication. Talk to a doctor or pharmacist before using herbs medicinally, especially if you are pregnant, breastfeeding, taking medication or treating a child.</p>
-      <p class="warn">Never eat a wild plant unless you are 100% sure of its identity — several herbs have deadly lookalikes. Respect local laws: many plants (e.g. arnica, wild ginseng) are protected.</p>
+      <p class="warn">Never eat a wild plant unless you are 100% sure of its identity — several herbs have deadly lookalikes (e.g. wild garlic and lily of the valley, gentian and white false hellebore). Respect nature reserves and cantonal plant-protection rules.</p>
       <h3>Evidence levels</h3>
       <ul>
         <li><b>Traditional use</b> — long history of use, little clinical research.</li>
@@ -85,8 +89,6 @@
   </dialog>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="js/regions.js"></script>
-  <script src="js/herbs.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
