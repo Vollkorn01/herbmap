@@ -877,5 +877,164 @@
    "source": "https://www.inaturalist.org/photos/10471",
    "site": "iNaturalist"
   }
+ ],
+ "hops": [
+  {
+   "file": "img/herbs/hops-1.jpg",
+   "author": "spygliukuburys",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/90572769",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/hops-2.jpg",
+   "author": "No machine-readable author provided. Hagen Graebner assumed (based on copyright claims).",
+   "license": "CC BY-SA 2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:Hopfen1.jpg",
+   "site": "Wikimedia Commons"
+  },
+  {
+   "file": "img/herbs/hops-3.jpg",
+   "author": "No machine-readable author provided. Rasbak assumed (based on copyright claims).",
+   "license": "CC BY-SA 3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hop_mannelijke_plant_Humulus_lupulus_male_plant.jpg",
+   "site": "Wikimedia Commons"
+  }
+ ],
+ "selfheal": [
+  {
+   "file": "img/herbs/selfheal-1.jpg",
+   "author": "no rights reserved",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/264671880",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/selfheal-2.jpg",
+   "author": "Alex Abair",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/395877141",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/selfheal-3.jpg",
+   "author": "Alex Abair",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/395877157",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/selfheal-4.jpg",
+   "author": "Alex Abair",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/395877138",
+   "site": "iNaturalist"
+  }
+ ],
+ "birch": [
+  {
+   "file": "img/herbs/birch-1.jpg",
+   "author": "Полина Яковлевна Нехаева (Лихачева)",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/36257611",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/birch-2.jpg",
+   "author": "Douglas Goldman",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/175067773",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/birch-3.jpg",
+   "author": "Paul Abell",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/55923857",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/birch-4.jpg",
+   "author": "Konstantin Romanov",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/68433870",
+   "site": "iNaturalist"
+  }
+ ],
+ "mint": [
+  {
+   "file": "img/herbs/mint-1.jpg",
+   "author": "no rights reserved",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/156020781",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/mint-2.jpg",
+   "author": "Dimitǎr Boevski",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/222189784",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/mint-3.jpg",
+   "author": "Dominik Denzler",
+   "license": "CC BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/86306674",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/mint-4.jpg",
+   "author": "Aleksandr_Levon",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/429772916",
+   "site": "iNaturalist"
+  }
+ ],
+ "lungwort": [
+  {
+   "file": "img/herbs/lungwort-1.jpg",
+   "author": "naturalist charlie",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/1783957",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/lungwort-2.jpg",
+   "author": "Ilya Illin",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/14832283",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/lungwort-3.jpg",
+   "author": "Thomas Ebner",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/68844390",
+   "site": "iNaturalist"
+  }
+ ],
+ "groundivy": [
+  {
+   "file": "img/herbs/groundivy-1.jpg",
+   "author": "viktorie_kolouchova",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/280941528",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/groundivy-2.jpg",
+   "author": "Douglas Goldman",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/250848608",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/groundivy-3.jpg",
+   "author": "Ginevra🌿",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/186060443",
+   "site": "iNaturalist"
+  }
  ]
 }
