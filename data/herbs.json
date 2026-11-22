@@ -1,366 +1,2052 @@
 [
-  {
-    "id": "chamomile", "name": "German Chamomile", "de": "Echte Kamille", "latin": "Matricaria chamomilla", "gbif": "Matricaria chamomilla",
-    "family": "Asteraceae", "uses": ["Digestion", "Sleep & calm", "Skin & wounds"], "parts": "Flower heads",
-    "habitat": "Fields, field margins, gravel and disturbed ground in warm lowlands.", "altitude": "Lowlands, rarely above 1000 m",
-    "season": [5, 6, 7, 8], "evidence": "some",
-    "properties": "Calming and mildly antispasmodic. The tea is used for indigestion, bloating, cramps and to ease sleep; small trials suggest benefit for mild anxiety. As a compress, rinse or steam it soothes inflamed skin, mouth and sinuses.",
-    "preparation": "Infusion of 1–2 tsp dried flowers per cup, covered for 5–10 minutes.",
-    "cautions": "Can cause allergy in people sensitive to the daisy family. May interact with blood thinners.",
-    "lookalikes": "Scentless mayweed and dog fennel look similar. True chamomile has a hollow, cone-shaped flower base and smells sweetly of apples."
-  },
-  {
-    "id": "yarrow", "name": "Yarrow", "de": "Gemeine Schafgarbe", "latin": "Achillea millefolium", "gbif": "Achillea millefolium",
-    "family": "Asteraceae", "uses": ["Skin & wounds", "Digestion", "Women's health"], "parts": "Flowering tops",
-    "habitat": "Meadows, pastures, verges and lawns.", "altitude": "Lowlands to about 2500 m",
-    "season": [6, 7, 8, 9], "evidence": "traditional",
-    "properties": "A classic wound herb: crushed leaves were used to stop minor bleeding. As a bitter tea it stimulates appetite and digestion and eases cramps, including menstrual cramps. Traditionally used in sitz baths.",
-    "preparation": "Infusion of 1–2 tsp dried herb per cup; fresh crushed leaf on small cuts.",
-    "cautions": "Avoid in pregnancy. Daisy-family allergy possible; can increase sun sensitivity.",
-    "lookalikes": "Can be confused with poisonous members of the carrot family such as hemlock. Yarrow has feathery, finely divided leaves and a tough, hairy stem."
-  },
-  {
-    "id": "stjohnswort", "name": "St John's Wort", "de": "Echtes Johanniskraut", "latin": "Hypericum perforatum", "gbif": "Hypericum perforatum",
-    "family": "Hypericaceae", "uses": ["Mood", "Skin & wounds", "Pain & inflammation"], "parts": "Flowering tops",
-    "habitat": "Sunny dry grassland, woodland edges, embankments and clearings.", "altitude": "Lowlands to about 1600 m",
-    "season": [6, 7, 8], "evidence": "good",
-    "properties": "One of the best-studied herbs: standardised extracts work better than placebo, and comparably to some antidepressants, for mild to moderate depression. The red infused oil (\"Rotöl\") is used traditionally on burns, bruises and nerve pain.",
-    "preparation": "For mood, use pharmacy extracts. Oil: fresh flowers in olive oil in the sun for several weeks until red.",
-    "cautions": "Serious drug interactions: it weakens birth control pills, blood thinners, HIV and transplant drugs and many more, and can cause serotonin syndrome with antidepressants. Causes sun sensitivity. Ask a doctor or pharmacist first.",
-    "lookalikes": "Hold a leaf against the light: true St John's wort shows tiny see-through dots, and crushed flowers stain fingers red."
-  },
-  {
-    "id": "nettle", "name": "Stinging Nettle", "de": "Grosse Brennnessel", "latin": "Urtica dioica", "gbif": "Urtica dioica",
-    "family": "Urticaceae", "uses": ["Urinary", "Pain & inflammation", "Respiratory"], "parts": "Young leaves, roots, seeds",
-    "habitat": "Nitrogen-rich soil: woodland edges, stream banks, around farms and alpine huts.", "altitude": "Lowlands to about 2400 m",
-    "season": [3, 4, 5, 6, 7, 8, 9], "evidence": "some",
-    "properties": "A mineral-rich spring vegetable. Root extracts help urinary symptoms of an enlarged prostate. Leaf tea is a traditional diuretic, used to flush the urinary tract, and leaf preparations are used for joint pain and hay fever (modest evidence).",
-    "preparation": "Young tops cooked like spinach or as tea; wear gloves. Drying or cooking removes the sting.",
-    "cautions": "May interact with blood-pressure, diabetes and blood-thinning medication and diuretics. Not for fluid retention caused by heart or kidney disease.",
-    "lookalikes": "Dead-nettles look similar but don't sting and have different properties."
-  },
-  {
-    "id": "dandelion", "name": "Dandelion", "de": "Löwenzahn", "latin": "Taraxacum sect. Taraxacum", "gbif": "Taraxacum", "rank": "GENUS",
-    "family": "Asteraceae", "uses": ["Digestion", "Urinary"], "parts": "Leaves, roots, flowers",
-    "habitat": "Fertilised meadows, lawns, pastures and roadsides — sometimes turning meadows completely yellow in spring.", "altitude": "Lowlands to above 2500 m (alpine species)",
-    "season": [3, 4, 5, 6, 7, 8, 9, 10], "evidence": "traditional",
-    "properties": "Bitter leaves stimulate appetite, digestion and bile flow and are mildly diuretic. The root is a traditional liver and digestive tonic, and roasted it makes a coffee substitute. Leaves are rich in vitamins and potassium.",
-    "preparation": "Young leaves in salad; root decoction (simmered 10–15 min); flowers for \"honey\" syrup.",
-    "cautions": "Avoid with gallstones or blocked bile ducts unless advised by a doctor. Don't pick on sprayed lawns or busy roads.",
-    "lookalikes": "Cat's-ear and hawkbits are similar and harmless."
-  },
-  {
-    "id": "arnica", "name": "Arnica", "de": "Arnika", "latin": "Arnica montana", "gbif": "Arnica montana",
-    "family": "Asteraceae", "uses": ["Pain & inflammation", "Skin & wounds"], "parts": "Flower heads",
-    "habitat": "Acidic, nutrient-poor mountain meadows and heaths, often on silicate rock.", "altitude": "Mostly 1000–2500 m",
-    "season": [6, 7, 8], "evidence": "some",
-    "properties": "Gels and ointments are used for bruises, sprains and sore muscles; one trial found arnica gel comparable to ibuprofen gel for hand osteoarthritis. (Homeopathic arnica is something different and lacks evidence.)",
-    "preparation": "External use only: gel, ointment, or tincture diluted for compresses.",
-    "cautions": "POISONOUS if taken internally. Never apply to broken skin.",
-    "lookalikes": "Leopard's bane and some hawkweeds look similar. Arnica has opposite leaves on the stem and a flat basal rosette.",
-    "protection": "Declining because of meadow fertilisation; picking is restricted in several cantons. Please leave wild plants and buy cultivated arnica."
-  },
-  {
-    "id": "valerian", "name": "Valerian", "de": "Echter Baldrian", "latin": "Valeriana officinalis", "gbif": "Valeriana officinalis",
-    "family": "Caprifoliaceae", "uses": ["Sleep & calm"], "parts": "Root",
-    "habitat": "Damp meadows, fens, ditches, stream banks and moist woodland edges.", "altitude": "Lowlands to about 1800 m",
-    "season": [6, 7, 8, 9, 10], "evidence": "some",
-    "properties": "The classic herbal sleep aid. Studies are mixed: some show faster sleep onset and better sleep quality after 2–4 weeks of use, others show no difference from placebo. Often combined with hops or lemon balm.",
-    "preparation": "Root tea or tincture 30–60 minutes before bed. Roots are dug in autumn and smell strongly.",
-    "cautions": "Can cause drowsiness — don't drive. Avoid with alcohol and sedatives, in pregnancy and with liver disease.",
-    "lookalikes": "In wet places, young plants can be confused with deadly water hemlock. Be completely sure before digging roots."
-  },
-  {
-    "id": "thyme", "name": "Wild Thyme", "de": "Feld-Thymian / Quendel", "latin": "Thymus serpyllum agg.", "gbif": "Thymus", "rank": "GENUS",
-    "family": "Lamiaceae", "uses": ["Respiratory", "Immune & colds", "Digestion"], "parts": "Flowering tops",
-    "habitat": "Dry, sunny grassland, rocky slopes, pastures and anthills.", "altitude": "Lowlands to about 2800 m",
-    "season": [6, 7, 8, 9], "evidence": "some",
-    "properties": "Contains thymol and carvacrol, which are antiseptic and loosen mucus. Thyme preparations are approved in Europe for coughs from colds and bronchitis, and trials support shorter coughing. Also eases bloating.",
-    "preparation": "Infusion of 1–2 tsp per cup, sweetened with honey; steam inhalation.",
-    "cautions": "Safe in normal amounts. Essential oil must be diluted and kept away from small children.",
-    "lookalikes": "Several closely related wild thymes grow in Switzerland; they are used the same way."
-  },
-  {
-    "id": "elder", "name": "Elder", "de": "Schwarzer Holunder", "latin": "Sambucus nigra", "gbif": "Sambucus nigra",
-    "family": "Adoxaceae", "uses": ["Immune & colds", "Respiratory"], "parts": "Flowers, ripe cooked berries",
-    "habitat": "Hedges, woodland edges, river banks, farmyards.", "altitude": "Lowlands to about 1500 m",
-    "season": [5, 6, 8, 9, 10], "evidence": "some",
-    "properties": "Elderflower tea promotes sweating in feverish colds. Elderberry syrup shortened flu and cold symptoms in a few small trials. The berries are rich in anthocyanins and vitamin C.",
-    "preparation": "Flowers as tea or syrup (May–June); berries only cooked, as syrup or jelly (Aug–Oct).",
-    "cautions": "Raw or unripe berries, leaves and bark cause nausea and vomiting — always cook the berries.",
-    "lookalikes": "Dwarf elder (Attich) is poisonous: a non-woody plant with berry clusters pointing upwards. Red elderberry (Sambucus racemosa) at higher altitudes has red berries with toxic seeds."
-  },
-  {
-    "id": "plantain", "name": "Ribwort Plantain", "de": "Spitzwegerich", "latin": "Plantago lanceolata", "gbif": "Plantago lanceolata",
-    "family": "Plantaginaceae", "uses": ["Respiratory", "Skin & wounds"], "parts": "Leaves",
-    "habitat": "Meadows, pastures, paths and lawns.", "altitude": "Lowlands to about 1800 m",
-    "season": [4, 5, 6, 7, 8, 9, 10], "evidence": "traditional",
-    "properties": "Ribwort syrup is a recognised traditional remedy in Europe for dry, irritating coughs: its mucilage soothes the throat. A crushed leaf is a classic field remedy for insect bites, nettle stings and small cuts.",
-    "preparation": "Syrup or tea for coughs; crush a fresh leaf and put it on a sting.",
-    "cautions": "Very safe. Its pollen can cause hay fever.",
-    "lookalikes": "Easy to recognise by its long leaves with parallel veins."
-  },
-  {
-    "id": "wildgarlic", "name": "Wild Garlic", "de": "Bärlauch", "latin": "Allium ursinum", "gbif": "Allium ursinum",
-    "family": "Amaryllidaceae", "uses": ["Circulation & heart", "Digestion"], "parts": "Leaves, flowers",
-    "habitat": "Damp, shady deciduous woodland, often in large carpets.", "altitude": "Lowlands to about 1500 m",
-    "season": [3, 4, 5], "evidence": "traditional",
-    "properties": "Like garlic, it contains sulphur compounds traditionally used to support healthy blood pressure and cholesterol and to aid digestion. Mainly eaten as a spring tonic.",
-    "preparation": "Fresh leaves in pesto, soups and salads, before flowering.",
-    "cautions": "There are deadly lookalikes, and every spring people in Switzerland are poisoned by mistake.",
-    "lookalikes": "Lily of the valley, autumn crocus and young arum leaves are highly poisonous. Pick leaf by leaf and crush each one — only wild garlic smells strongly of garlic (beware of garlic-smelling fingers).",
-    "protection": "Picking is not allowed in nature reserves; some cantons limit amounts."
-  },
-  {
-    "id": "comfrey", "name": "Comfrey", "de": "Gemeiner Beinwell", "latin": "Symphytum officinale", "gbif": "Symphytum officinale",
-    "family": "Boraginaceae", "uses": ["Pain & inflammation", "Skin & wounds"], "parts": "Root, leaves (external use)",
-    "habitat": "Damp ground along rivers, ditches and wet meadows.", "altitude": "Lowlands to about 1000 m",
-    "season": [4, 5, 6, 7, 8, 9, 10], "evidence": "good",
-    "properties": "Called \"knitbone\": it contains allantoin, which helps tissue repair. Several good trials show comfrey root ointment reduces pain and swelling of sprains, bruises and back pain.",
-    "preparation": "External only: ointments, or poultices of mashed fresh root or leaves.",
-    "cautions": "Contains liver-damaging pyrrolizidine alkaloids — do not eat or drink it. Don't use on broken skin or for longer than a few weeks.",
-    "lookalikes": "Young leaves look like foxglove (deadly). Comfrey leaves feel rough and bristly, foxglove leaves soft and velvety."
-  },
-  {
-    "id": "bilberry", "name": "Bilberry", "de": "Heidelbeere", "latin": "Vaccinium myrtillus", "gbif": "Vaccinium myrtillus",
-    "family": "Ericaceae", "uses": ["Digestion", "Circulation & heart"], "parts": "Berries, leaves",
-    "habitat": "Acidic soil in conifer forests, dwarf-shrub heaths and above the tree line.", "altitude": "About 600–2500 m",
-    "season": [7, 8, 9], "evidence": "some",
-    "properties": "Dried berries are a traditional remedy for diarrhoea and a mouth rinse for inflamed gums. The berries are rich in anthocyanins, studied for eye and blood-vessel health. Fresh berries are mildly laxative, dried ones the opposite.",
-    "preparation": "Chew dried berries or make a decoction; fresh berries as food.",
-    "cautions": "Berries are safe as food. Don't use the leaves long term.",
-    "lookalikes": "Bog bilberry is similar. Never confuse with poisonous berries such as deadly nightshade or herb paris."
-  },
-  {
-    "id": "rosehip", "name": "Dog Rose", "de": "Hunds-Rose (Hagebutte)", "latin": "Rosa canina", "gbif": "Rosa canina",
-    "family": "Rosaceae", "uses": ["Immune & colds", "Pain & inflammation"], "parts": "Ripe hips",
-    "habitat": "Hedges, woodland edges, dry slopes and pastures.", "altitude": "Lowlands to about 1600 m",
-    "season": [9, 10, 11], "evidence": "some",
-    "properties": "Rose hips are very rich in vitamin C. Trials of rose-hip powder found modest relief of osteoarthritis pain. Rose-hip tea (\"Hagebuttentee\") is a traditional mild diuretic.",
-    "preparation": "Tea, syrup or jam; remove the hairy seeds.",
-    "cautions": "The seed hairs irritate skin and gut (they are \"itching powder\").",
-    "lookalikes": "Other wild roses have similar hips and are used the same way."
-  },
-  {
-    "id": "lemonbalm", "name": "Lemon Balm", "de": "Zitronenmelisse", "latin": "Melissa officinalis", "gbif": "Melissa officinalis",
-    "family": "Lamiaceae", "uses": ["Sleep & calm", "Digestion", "Skin & wounds"], "parts": "Leaves",
-    "habitat": "Garden escape near villages, walls and vineyards, mainly in warm areas such as Ticino, Valais and the Lake Geneva region.", "altitude": "Lowlands",
-    "season": [5, 6, 7, 8, 9], "evidence": "some",
-    "properties": "Gently calming with a lemon scent. Small trials suggest better mood, calmness and sleep, especially combined with valerian. Creams with lemon balm extract can shorten cold sores. Soothes nervous stomach complaints.",
-    "preparation": "Infusion of fresh or dried leaves; best fresh.",
-    "cautions": "May interact with thyroid medication and sedatives.",
-    "lookalikes": "Mints and catnip look similar but lack the clear lemon scent."
-  },
-  {
-    "id": "feverfew", "name": "Feverfew", "de": "Mutterkraut", "latin": "Tanacetum parthenium", "gbif": "Tanacetum parthenium",
-    "family": "Asteraceae", "uses": ["Pain & inflammation", "Women's health"], "parts": "Leaves",
-    "habitat": "Walls, rubble, village paths and old gardens (garden escape).", "altitude": "Lowlands to about 1000 m",
-    "season": [6, 7, 8, 9], "evidence": "some",
-    "properties": "Taken daily, feverfew may reduce the number of migraine attacks in some people, though trial results are mixed. Traditionally used for fever, period pain and arthritis.",
-    "preparation": "1–2 fresh leaves daily, or capsules.",
-    "cautions": "Can cause mouth ulcers. Avoid in pregnancy and with blood thinners; stop slowly to avoid rebound headaches.",
-    "lookalikes": "Looks like chamomile, but has flat flower centres and a bitter, pungent smell."
-  },
-  {
-    "id": "ladysmantle", "name": "Lady's Mantle", "de": "Frauenmantel", "latin": "Alchemilla vulgaris agg.", "gbif": "Alchemilla", "rank": "GENUS",
-    "family": "Rosaceae", "uses": ["Women's health", "Digestion", "Skin & wounds"], "parts": "Leaves, flowering herb",
-    "habitat": "Meadows and pastures, especially in the mountains. Look for the dewdrops on its pleated leaves.", "altitude": "Lowlands to about 2500 m, commonest in the mountains",
-    "season": [5, 6, 7, 8], "evidence": "traditional",
-    "properties": "Rich in astringent tannins. Traditionally used for heavy or painful periods and menopausal complaints, for mild diarrhoea, and as a mouth rinse or compress for small wounds.",
-    "preparation": "Infusion of 2 tsp dried herb per cup.",
-    "cautions": "Generally safe. The tannins can upset sensitive stomachs.",
-    "lookalikes": "Many very similar Alchemilla species exist in Switzerland; they are used the same way."
-  },
-  {
-    "id": "hawthorn", "name": "Hawthorn", "de": "Eingriffeliger Weissdorn", "latin": "Crataegus monogyna", "gbif": "Crataegus monogyna",
-    "family": "Rosaceae", "uses": ["Circulation & heart"], "parts": "Flowering twigs, berries",
-    "habitat": "Hedges, woodland edges, pastures and dry slopes.", "altitude": "Lowlands to about 1500 m",
-    "season": [4, 5, 9, 10], "evidence": "some",
-    "properties": "The leading European heart herb. Extracts of leaves and flowers were tested for mild heart failure, with some improvement in exercise tolerance and symptoms, though a large trial did not confirm a survival benefit.",
-    "preparation": "Tea from flowering twigs; standardised extracts for heart use.",
-    "cautions": "Use for the heart only under medical supervision. Can interact with heart medication (digoxin, beta blockers, nitrates).",
-    "lookalikes": "Midland hawthorn (C. laevigata) is similar and used the same way."
-  },
-  {
-    "id": "linden", "name": "Linden (Lime tree)", "de": "Linde", "latin": "Tilia cordata / T. platyphyllos", "gbif": "Tilia", "rank": "GENUS",
-    "family": "Malvaceae", "uses": ["Immune & colds", "Sleep & calm"], "parts": "Flowers with bracts",
-    "habitat": "Mixed deciduous forest on slopes, village squares and avenues.", "altitude": "Lowlands to about 1500 m",
-    "season": [6, 7], "evidence": "traditional",
-    "properties": "Linden-flower tea (\"Lindenblütentee\") is a traditional remedy for feverish colds — it promotes sweating — and for dry coughs. It is also gently calming.",
-    "preparation": "Infusion of 1–2 tsp dried flowers per cup, drunk hot.",
-    "cautions": "Very safe. Use flowers from trees away from traffic.",
-    "lookalikes": "Easy to recognise by heart-shaped leaves and flowers hanging from a pale, wing-like bract."
-  },
-  {
-    "id": "coltsfoot", "name": "Coltsfoot", "de": "Huflattich", "latin": "Tussilago farfara", "gbif": "Tussilago farfara",
-    "family": "Asteraceae", "uses": ["Respiratory"], "parts": "Leaves, flowers",
-    "habitat": "Bare, damp, clay ground: embankments, gravel pits, landslides and building sites. Among the first flowers in spring.", "altitude": "Lowlands to about 2300 m",
-    "season": [2, 3, 4, 5, 6], "evidence": "traditional",
-    "properties": "Historically one of the main cough remedies — its Latin name means \"cough dispeller\". The mucilage soothes irritated airways.",
-    "preparation": "Only use specially bred, alkaloid-free varieties sold in pharmacies.",
-    "cautions": "Wild plants contain liver-damaging pyrrolizidine alkaloids. Do not use wild-picked coltsfoot internally.",
-    "lookalikes": "Flowers appear before the leaves and look like small dandelions; leaves resemble butterbur."
-  },
-  {
-    "id": "mullein", "name": "Mullein", "de": "Kleinblütige Königskerze", "latin": "Verbascum thapsus", "gbif": "Verbascum thapsus",
-    "family": "Scrophulariaceae", "uses": ["Respiratory"], "parts": "Flowers",
-    "habitat": "Sunny, dry, disturbed ground: clearings, gravel, embankments and walls.", "altitude": "Lowlands to about 1800 m",
-    "season": [7, 8, 9], "evidence": "traditional",
-    "properties": "The yellow flowers are rich in mucilage and saponins and are a traditional remedy for coughs and bronchitis. Mullein-flower oil is used traditionally for earache.",
-    "preparation": "Flower tea, strained through a cloth to remove irritating hairs.",
-    "cautions": "Always strain the tea well. Don't put anything in the ear if the eardrum may be damaged.",
-    "lookalikes": "Several other mulleins grow in Switzerland; dense-flowered mullein (V. densiflorum) is used the same way."
-  },
-  {
-    "id": "meadowsweet", "name": "Meadowsweet", "de": "Echtes Mädesüss", "latin": "Filipendula ulmaria", "gbif": "Filipendula ulmaria",
-    "family": "Rosaceae", "uses": ["Pain & inflammation", "Digestion", "Immune & colds"], "parts": "Flowers",
-    "habitat": "Wet meadows, fens, ditches and stream banks.", "altitude": "Lowlands to about 1500 m",
-    "season": [6, 7, 8], "evidence": "traditional",
-    "properties": "Contains salicylates — aspirin was named after its old name, Spiraea. Traditionally used for feverish colds, rheumatic pain and heartburn.",
-    "preparation": "Flower infusion (not boiled).",
-    "cautions": "Avoid with aspirin allergy, in children with fever, and with blood thinners.",
-    "lookalikes": "Creamy, almond-scented flower clusters; water hemlock grows in similar places, so learn the leaves."
-  },
-  {
-    "id": "horsetail", "name": "Field Horsetail", "de": "Acker-Schachtelhalm", "latin": "Equisetum arvense", "gbif": "Equisetum arvense",
-    "family": "Equisetaceae", "uses": ["Urinary", "Skin & wounds"], "parts": "Green summer shoots",
-    "habitat": "Damp fields, embankments, ditches and gravel.", "altitude": "Lowlands to about 2400 m",
-    "season": [5, 6, 7, 8], "evidence": "traditional",
-    "properties": "Rich in silica. Recognised traditionally in Europe to flush the urinary tract and support small wounds; used in baths and compresses.",
-    "preparation": "Decoction of dried shoots (simmered 10–15 minutes).",
-    "cautions": "Not for fluid retention caused by heart or kidney disease. Long-term use may lower vitamin B1.",
-    "lookalikes": "Marsh horsetail (E. palustre) is poisonous to livestock and grows in wetter places — get identification right."
-  },
-  {
-    "id": "gentian", "name": "Great Yellow Gentian", "de": "Gelber Enzian", "latin": "Gentiana lutea", "gbif": "Gentiana lutea",
-    "family": "Gentianaceae", "uses": ["Digestion"], "parts": "Root",
-    "habitat": "Mountain pastures and meadows, mainly on limestone in the Jura and Alps.", "altitude": "About 1000–2500 m",
-    "season": [6, 7, 8, 9], "evidence": "traditional",
-    "properties": "One of the most bitter substances known. The bitterness stimulates saliva, stomach juices and appetite, and is used for poor appetite and indigestion. The root is distilled into the Swiss \"Enzian\" schnapps.",
-    "preparation": "Tiny amounts as tincture or bitters before meals.",
-    "cautions": "Avoid with stomach ulcers or high blood pressure.",
-    "lookalikes": "The white false hellebore (Weisser Germer) is DEADLY and grows in the same pastures. Gentian leaves are opposite; false hellebore leaves are alternate and pleated.",
-    "protection": "Protected or partially protected in several cantons; digging roots needs a permit."
-  },
-  {
-    "id": "cowslip", "name": "Cowslip", "de": "Frühlings-Schlüsselblume", "latin": "Primula veris", "gbif": "Primula veris",
-    "family": "Primulaceae", "uses": ["Respiratory"], "parts": "Root, flowers",
-    "habitat": "Dry, sunny meadows, open woodland and slopes, often on limestone.", "altitude": "Lowlands to about 2000 m",
-    "season": [3, 4, 5], "evidence": "some",
-    "properties": "The root contains saponins that loosen mucus. Primrose root is used with thyme in approved cough remedies for bronchitis; the flowers make a gentle tea.",
-    "preparation": "Use pharmacy products; flower tea for mild coughs.",
-    "cautions": "Can upset the stomach. Avoid with primrose allergy.",
-    "lookalikes": "The oxlip (P. elatior) is similar but paler and unscented.",
-    "protection": "Protected in some cantons — please buy rather than dig the roots."
-  },
-  {
-    "id": "juniper", "name": "Common Juniper", "de": "Gemeiner Wacholder", "latin": "Juniperus communis", "gbif": "Juniperus communis",
-    "family": "Cupressaceae", "uses": ["Digestion", "Urinary"], "parts": "Ripe berries (cones)",
-    "habitat": "Dry pastures, heaths, open pine woods and alpine dwarf-shrub heath.", "altitude": "Lowlands to about 3000 m",
-    "season": [8, 9, 10, 11], "evidence": "traditional",
-    "properties": "The berries ease bloating and indigestion and are a traditional diuretic. Used in cooking, sauerkraut and gin.",
-    "preparation": "A few crushed berries as tea or in food, for a short time only.",
-    "cautions": "Avoid in pregnancy and with kidney disease. Don't take for longer than 4 weeks.",
-    "lookalikes": "Savin juniper (Sefistrauch), found in dry inner-Alpine valleys, is highly poisonous: it has scale-like leaves and smells unpleasant."
-  },
-  {
-    "id": "mallow", "name": "Common Mallow", "de": "Wilde Malve", "latin": "Malva sylvestris", "gbif": "Malva sylvestris",
-    "family": "Malvaceae", "uses": ["Respiratory", "Digestion"], "parts": "Leaves, flowers",
-    "habitat": "Paths, walls, rubble and field edges near villages, in warm lowlands.", "altitude": "Lowlands to about 1000 m",
-    "season": [6, 7, 8, 9], "evidence": "traditional",
-    "properties": "Full of soothing mucilage. Recognised traditionally for dry coughs, sore throats and irritation of the mouth and stomach.",
-    "preparation": "Cold infusion (soak for 1–2 hours) keeps the mucilage intact.",
-    "cautions": "Take other medicines an hour apart, as the mucilage can slow their absorption.",
-    "lookalikes": "Other mallows are similar and used the same way."
-  },
-  {
-    "id": "marjoram", "name": "Wild Marjoram (Oregano)", "de": "Echter Dost", "latin": "Origanum vulgare", "gbif": "Origanum vulgare",
-    "family": "Lamiaceae", "uses": ["Digestion", "Respiratory"], "parts": "Flowering tops",
-    "habitat": "Dry, sunny grassland, woodland edges and embankments, often on limestone.", "altitude": "Lowlands to about 1600 m",
-    "season": [7, 8, 9], "evidence": "traditional",
-    "properties": "Rich in antiseptic essential oils. Used traditionally for bloating and indigestion and as a tea or steam for coughs and colds.",
-    "preparation": "Infusion of 1–2 tsp per cup, or as a kitchen herb.",
-    "cautions": "Safe in normal amounts; avoid concentrated oil internally.",
-    "lookalikes": "Wild basil and other mints grow nearby; oregano has a distinct smell."
-  },
-  {
-    "id": "masterwort", "name": "Masterwort", "de": "Meisterwurz", "latin": "Peucedanum ostruthium", "gbif": "Peucedanum ostruthium",
-    "family": "Apiaceae", "uses": ["Digestion", "Immune & colds", "Respiratory"], "parts": "Root",
-    "habitat": "Tall-herb meadows, stream banks and around alpine huts.", "altitude": "About 1200–2500 m",
-    "season": [7, 8, 9, 10], "evidence": "traditional",
-    "properties": "A cherished alpine folk remedy — \"Meister\" meaning master of all remedies. The aromatic, bitter root was used for poor digestion, colds and fever and as a general tonic. Used in alpine herb liqueurs.",
-    "preparation": "Root as tea, tincture or chewed in small amounts.",
-    "cautions": "Can cause sun sensitivity. Avoid in pregnancy.",
-    "lookalikes": "DANGER: it belongs to the carrot family, which includes deadly plants such as hemlock and water hemlock. Only collect with expert identification."
-  },
-  {
-    "id": "woodruff", "name": "Sweet Woodruff", "de": "Waldmeister", "latin": "Galium odoratum", "gbif": "Galium odoratum",
-    "family": "Rubiaceae", "uses": ["Sleep & calm"], "parts": "Herb, picked before flowering and wilted",
-    "habitat": "Shady beech and mixed forests with rich soil.", "altitude": "Lowlands to about 1600 m",
-    "season": [4, 5], "evidence": "traditional",
-    "properties": "Smells of hay when wilted because of coumarin. Used traditionally as a mild calming tea and for headaches; famous for flavouring May punch.",
-    "preparation": "Small amounts of wilted herb, as tea or flavouring.",
-    "cautions": "Large amounts of coumarin cause headaches and can harm the liver. Not with blood thinners.",
-    "lookalikes": "Other bedstraws look similar but lack the hay scent."
-  },
-  {
-    "id": "hops", "name": "Hops", "de": "Hopfen", "latin": "Humulus lupulus", "gbif": "Humulus lupulus",
-    "family": "Cannabaceae", "uses": ["Sleep & calm", "Women's health"], "parts": "Female cones",
-    "habitat": "Climbing in riverside woods, hedges and damp thickets.", "altitude": "Lowlands to about 1200 m",
-    "season": [8, 9], "evidence": "some",
-    "properties": "Sedative, usually combined with valerian; studies of the combination show improved sleep. Hops contain plant oestrogens studied for menopausal symptoms. A bitter for digestion.",
-    "preparation": "Tea from dried cones, or a hop pillow.",
-    "cautions": "Can cause drowsiness. Avoid with hormone-sensitive conditions and depression.",
-    "lookalikes": "The cones are distinctive."
-  },
-  {
-    "id": "selfheal", "name": "Self-heal", "de": "Kleine Braunelle", "latin": "Prunella vulgaris", "gbif": "Prunella vulgaris",
-    "family": "Lamiaceae", "uses": ["Skin & wounds", "Respiratory"], "parts": "Flowering herb",
-    "habitat": "Meadows, pastures, lawns and forest paths.", "altitude": "Lowlands to about 2000 m",
-    "season": [6, 7, 8, 9], "evidence": "traditional",
-    "properties": "As the name suggests, a traditional wound herb. Its astringent tannins make it useful as a gargle for sore throats and mouth inflammation.",
-    "preparation": "Infusion for gargling or compresses.",
-    "cautions": "Generally safe.",
-    "lookalikes": "Large self-heal and cut-leaved self-heal are close relatives."
-  },
-  {
-    "id": "birch", "name": "Silver Birch", "de": "Hänge-Birke", "latin": "Betula pendula", "gbif": "Betula pendula",
-    "family": "Betulaceae", "uses": ["Urinary", "Pain & inflammation"], "parts": "Young leaves",
-    "habitat": "Clearings, moors, heaths and forest edges on poor soil.", "altitude": "Lowlands to about 1900 m",
-    "season": [4, 5, 6], "evidence": "traditional",
-    "properties": "Birch-leaf tea is recognised traditionally in Europe to increase urine flow and flush the urinary tract, and is used in rheumatism teas.",
-    "preparation": "Infusion of young spring leaves, with plenty of fluid.",
-    "cautions": "Not for fluid retention caused by heart or kidney disease. Birch pollen allergy is common.",
-    "lookalikes": "Downy birch (B. pubescens) is similar and used the same way."
-  },
-  {
-    "id": "mint", "name": "Horse Mint", "de": "Ross-Minze", "latin": "Mentha longifolia", "gbif": "Mentha longifolia",
-    "family": "Lamiaceae", "uses": ["Digestion", "Respiratory"], "parts": "Leaves",
-    "habitat": "Wet places: stream banks, ditches, wet pastures, often around troughs in the mountains.", "altitude": "Lowlands to about 2000 m",
-    "season": [6, 7, 8, 9], "evidence": "traditional",
-    "properties": "A wild cousin of peppermint with similar uses: relieves bloating, cramps and nausea and clears the airways in colds. (Peppermint oil has good evidence for irritable bowel syndrome.)",
-    "preparation": "Infusion of fresh or dried leaves.",
-    "cautions": "Can worsen heartburn. Don't use menthol oils on the face of infants.",
-    "lookalikes": "Other wild mints and hybrids are common; all smell of mint."
-  },
-  {
-    "id": "lungwort", "name": "Lungwort", "de": "Echtes Lungenkraut", "latin": "Pulmonaria officinalis", "gbif": "Pulmonaria officinalis",
-    "family": "Boraginaceae", "uses": ["Respiratory"], "parts": "Leaves",
-    "habitat": "Deciduous woods, hedges and shady slopes. Flowers change from pink to blue.", "altitude": "Lowlands to about 1500 m",
-    "season": [3, 4, 5], "evidence": "traditional",
-    "properties": "Named for its spotted, lung-like leaves (an old \"doctrine of signatures\"). The mucilage and tannins are used traditionally for coughs and hoarseness.",
-    "preparation": "Leaf infusion.",
-    "cautions": "Contains small amounts of pyrrolizidine alkaloids; use only occasionally.",
-    "lookalikes": "Several similar lungworts grow in Switzerland."
-  },
-  {
-    "id": "groundivy", "name": "Ground Ivy", "de": "Gundelrebe", "latin": "Glechoma hederacea", "gbif": "Glechoma hederacea",
-    "family": "Lamiaceae", "uses": ["Respiratory", "Skin & wounds", "Digestion"], "parts": "Flowering herb",
-    "habitat": "Damp meadows, hedges, woodland edges and gardens.", "altitude": "Lowlands to about 1500 m",
-    "season": [3, 4, 5, 6], "evidence": "traditional",
-    "properties": "A traditional spring herb used for coughs and catarrh, as a mild digestive and externally for slow-healing wounds. A tasty wild herb in soups.",
-    "preparation": "Infusion or fresh in small amounts as a herb.",
-    "cautions": "Toxic to horses; for people, use only small amounts.",
-    "lookalikes": "Purple dead-nettle and henbit look similar; ground ivy has kidney-shaped leaves and a strong scent."
+ {
+  "id": "chamomile",
+  "name": "German Chamomile",
+  "de": "Echte Kamille",
+  "latin": "Matricaria chamomilla",
+  "gbif": "Matricaria chamomilla",
+  "family": "Asteraceae",
+  "uses": [
+   "Digestion",
+   "Sleep & calm",
+   "Skin & wounds"
+  ],
+  "parts": "Flower heads",
+  "habitat": "Fields, field margins, gravel and disturbed ground in warm lowlands.",
+  "altitude": "Lowlands, rarely above 1000 m",
+  "season": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "evidence": "some",
+  "properties": "Calming and mildly antispasmodic. The tea is used for indigestion, bloating, cramps and to ease sleep; small trials suggest benefit for mild anxiety. As a compress, rinse or steam it soothes inflamed skin, mouth and sinuses.",
+  "preparation": "Infusion of 1–2 tsp dried flowers per cup, covered for 5–10 minutes.",
+  "cautions": "Can cause allergy in people sensitive to the daisy family. May interact with blood thinners.",
+  "lookalikes": "Scentless mayweed and dog fennel look similar. True chamomile has a hollow, cone-shaped flower base and smells sweetly of apples.",
+  "model": {
+   "habitats": {
+    "8.2": 0.85,
+    "8.2.3": 0.6,
+    "7.1": 0.8,
+    "9.1": 0.5,
+    "9.0.1": 0.4,
+    "4.0.1": 0.35,
+    "9.3.3": 0.35
+   },
+   "elev": [
+    190,
+    250,
+    750,
+    1200
+   ],
+   "moisture": [
+    0.3,
+    0.6
+   ],
+   "light": "open",
+   "nutrients": [
+    "rich",
+    0.5
+   ],
+   "warm": 0.3,
+   "near": {
+    "paths": 0.35
+   }
   }
+ },
+ {
+  "id": "yarrow",
+  "name": "Yarrow",
+  "de": "Gemeine Schafgarbe",
+  "latin": "Achillea millefolium",
+  "gbif": "Achillea millefolium",
+  "family": "Asteraceae",
+  "uses": [
+   "Skin & wounds",
+   "Digestion",
+   "Women's health"
+  ],
+  "parts": "Flowering tops",
+  "habitat": "Meadows, pastures, verges and lawns.",
+  "altitude": "Lowlands to about 2500 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "A classic wound herb: crushed leaves were used to stop minor bleeding. As a bitter tea it stimulates appetite and digestion and eases cramps, including menstrual cramps. Traditionally used in sitz baths.",
+  "preparation": "Infusion of 1–2 tsp dried herb per cup; fresh crushed leaf on small cuts.",
+  "cautions": "Avoid in pregnancy. Daisy-family allergy possible; can increase sun sensitivity.",
+  "lookalikes": "Can be confused with poisonous members of the carrot family such as hemlock. Yarrow has feathery, finely divided leaves and a tough, hairy stem.",
+  "model": {
+   "habitats": {
+    "4.5.1": 1,
+    "4.5.2": 0.9,
+    "4.5.3": 0.9,
+    "4.5.4": 0.7,
+    "4.2.4": 0.8,
+    "4.3": 0.5,
+    "4.3.5": 0.6,
+    "4.0.1": 0.4,
+    "4.0.0.0.1": 0.5,
+    "4.0.0.0.2": 0.5,
+    "4.0.0.0.3": 0.4,
+    "7.1": 0.6,
+    "8.1.5": 0.6,
+    "9.3.3": 0.4,
+    "4.1": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    2000,
+    2700
+   ],
+   "moisture": [
+    0.2,
+    0.55
+   ],
+   "light": "open",
+   "near": {
+    "paths": 0.4,
+    "edge": 0.3
+   }
+  }
+ },
+ {
+  "id": "stjohnswort",
+  "name": "St John's Wort",
+  "de": "Echtes Johanniskraut",
+  "latin": "Hypericum perforatum",
+  "gbif": "Hypericum perforatum",
+  "family": "Hypericaceae",
+  "uses": [
+   "Mood",
+   "Skin & wounds",
+   "Pain & inflammation"
+  ],
+  "parts": "Flowering tops",
+  "habitat": "Sunny dry grassland, woodland edges, embankments and clearings.",
+  "altitude": "Lowlands to about 1600 m",
+  "season": [
+   6,
+   7,
+   8
+  ],
+  "evidence": "good",
+  "properties": "One of the best-studied herbs: standardised extracts work better than placebo, and comparably to some antidepressants, for mild to moderate depression. The red infused oil (\"Rotöl\") is used traditionally on burns, bruises and nerve pain.",
+  "preparation": "For mood, use pharmacy extracts. Oil: fresh flowers in olive oil in the sun for several weeks until red.",
+  "cautions": "Serious drug interactions: it weakens birth control pills, blood thinners, HIV and transplant drugs and many more, and can cause serotonin syndrome with antidepressants. Causes sun sensitivity. Ask a doctor or pharmacist first.",
+  "lookalikes": "Hold a leaf against the light: true St John's wort shows tiny see-through dots, and crushed flowers stain fingers red.",
+  "model": {
+   "habitats": {
+    "4.2.4": 1,
+    "4.1": 0.6,
+    "5.3": 0.45,
+    "6.4": 0.5,
+    "7.1": 0.6,
+    "9.3.4": 0.6,
+    "9.3.3": 0.4,
+    "4.5.1": 0.35,
+    "4.5.3": 0.3,
+    "3.2": 0.4,
+    "8.1.6": 0.4,
+    "9.1": 0.5
+   },
+   "elev": [
+    190,
+    300,
+    1200,
+    1700
+   ],
+   "moisture": [
+    0.1,
+    0.45
+   ],
+   "light": "open",
+   "warm": 0.6,
+   "near": {
+    "edge": 0.7,
+    "hedge": 0.5,
+    "paths": 0.3
+   }
+  }
+ },
+ {
+  "id": "nettle",
+  "name": "Stinging Nettle",
+  "de": "Grosse Brennnessel",
+  "latin": "Urtica dioica",
+  "gbif": "Urtica dioica",
+  "family": "Urticaceae",
+  "uses": [
+   "Urinary",
+   "Pain & inflammation",
+   "Respiratory"
+  ],
+  "parts": "Young leaves, roots, seeds",
+  "habitat": "Nitrogen-rich soil: woodland edges, stream banks, around farms and alpine huts.",
+  "altitude": "Lowlands to about 2400 m",
+  "season": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "some",
+  "properties": "A mineral-rich spring vegetable. Root extracts help urinary symptoms of an enlarged prostate. Leaf tea is a traditional diuretic, used to flush the urinary tract, and leaf preparations are used for joint pain and hay fever (modest evidence).",
+  "preparation": "Young tops cooked like spinach or as tea; wear gloves. Drying or cooking removes the sting.",
+  "cautions": "May interact with blood-pressure, diabetes and blood-thinning medication and diuretics. Not for fluid retention caused by heart or kidney disease.",
+  "lookalikes": "Dead-nettles look similar but don't sting and have different properties.",
+  "model": {
+   "habitats": {
+    "7.1": 0.9,
+    "6.1": 1,
+    "2.3.2": 0.8,
+    "5.2": 0.8,
+    "6.3.1": 0.6,
+    "6.2.3": 0.35,
+    "4.5.4": 0.4,
+    "9.2.2": 0.8,
+    "9.1": 0.6,
+    "8.1.5": 0.5,
+    "6.3.3": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1600,
+    2400
+   ],
+   "moisture": [
+    0.45,
+    0.85
+   ],
+   "light": "half",
+   "nutrients": [
+    "rich",
+    1
+   ],
+   "near": {
+    "buildings": 0.8,
+    "water": 0.6,
+    "edge": 0.4,
+    "hedge": 0.4
+   }
+  }
+ },
+ {
+  "id": "dandelion",
+  "name": "Dandelion",
+  "de": "Löwenzahn",
+  "latin": "Taraxacum sect. Taraxacum",
+  "gbif": "Taraxacum",
+  "rank": "GENUS",
+  "family": "Asteraceae",
+  "uses": [
+   "Digestion",
+   "Urinary"
+  ],
+  "parts": "Leaves, roots, flowers",
+  "habitat": "Fertilised meadows, lawns, pastures and roadsides — sometimes turning meadows completely yellow in spring.",
+  "altitude": "Lowlands to above 2500 m (alpine species)",
+  "season": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "evidence": "traditional",
+  "properties": "Bitter leaves stimulate appetite, digestion and bile flow and are mildly diuretic. The root is a traditional liver and digestive tonic, and roasted it makes a coffee substitute. Leaves are rich in vitamins and potassium.",
+  "preparation": "Young leaves in salad; root decoction (simmered 10–15 min); flowers for \"honey\" syrup.",
+  "cautions": "Avoid with gallstones or blocked bile ducts unless advised by a doctor. Don't pick on sprayed lawns or busy roads.",
+  "lookalikes": "Cat's-ear and hawkbits are similar and harmless.",
+  "model": {
+   "habitats": {
+    "4.5.1": 1,
+    "4.5.2": 1,
+    "4.5.3": 1,
+    "4.5.4": 0.9,
+    "4.0": 0.8,
+    "4.0.0.0.1": 0.8,
+    "4.0.0.0.2": 0.8,
+    "4.0.0.0.3": 0.8,
+    "4.0.1": 0.7,
+    "7.1": 0.7,
+    "8.1.5": 0.8,
+    "9.3.3": 0.4,
+    "4.2.4": 0.3,
+    "4.3": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    2000,
+    2800
+   ],
+   "moisture": [
+    0.3,
+    0.7
+   ],
+   "light": "open",
+   "nutrients": [
+    "rich",
+    0.7
+   ],
+   "near": {
+    "paths": 0.3,
+    "buildings": 0.3
+   }
+  }
+ },
+ {
+  "id": "arnica",
+  "name": "Arnica",
+  "de": "Arnika",
+  "latin": "Arnica montana",
+  "gbif": "Arnica montana",
+  "family": "Asteraceae",
+  "uses": [
+   "Pain & inflammation",
+   "Skin & wounds"
+  ],
+  "parts": "Flower heads",
+  "habitat": "Acidic, nutrient-poor mountain meadows and heaths, often on silicate rock.",
+  "altitude": "Mostly 1000–2500 m",
+  "season": [
+   6,
+   7,
+   8
+  ],
+  "evidence": "some",
+  "properties": "Gels and ointments are used for bruises, sprains and sore muscles; one trial found arnica gel comparable to ibuprofen gel for hand osteoarthritis. (Homeopathic arnica is something different and lacks evidence.)",
+  "preparation": "External use only: gel, ointment, or tincture diluted for compresses.",
+  "cautions": "POISONOUS if taken internally. Never apply to broken skin.",
+  "lookalikes": "Leopard's bane and some hawkweeds look similar. Arnica has opposite leaves on the stem and a flat basal rosette.",
+  "protection": "Declining because of meadow fertilisation; picking is restricted in several cantons. Please leave wild plants and buy cultivated arnica.",
+  "model": {
+   "habitats": {
+    "4.3.5": 1,
+    "5.4": 0.6,
+    "4.3.3": 0.4,
+    "2.2.2": 0.5,
+    "2.3.1": 0.5,
+    "4.5.4": 0.2,
+    "4.5.2": 0.25,
+    "6.6.2": 0.15,
+    "6.5": 0.2,
+    "4.2.4": 0.15
+   },
+   "elev": [
+    600,
+    1100,
+    2300,
+    2800
+   ],
+   "moisture": [
+    0.25,
+    0.65
+   ],
+   "light": "open",
+   "lime": [
+    "acid",
+    1
+   ],
+   "nutrients": [
+    "poor",
+    1
+   ]
+  }
+ },
+ {
+  "id": "valerian",
+  "name": "Valerian",
+  "de": "Echter Baldrian",
+  "latin": "Valeriana officinalis",
+  "gbif": "Valeriana officinalis",
+  "family": "Caprifoliaceae",
+  "uses": [
+   "Sleep & calm"
+  ],
+  "parts": "Root",
+  "habitat": "Damp meadows, fens, ditches, stream banks and moist woodland edges.",
+  "altitude": "Lowlands to about 1800 m",
+  "season": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "evidence": "some",
+  "properties": "The classic herbal sleep aid. Studies are mixed: some show faster sleep onset and better sleep quality after 2–4 weeks of use, others show no difference from placebo. Often combined with hops or lemon balm.",
+  "preparation": "Root tea or tincture 30–60 minutes before bed. Roots are dug in autumn and smell strongly.",
+  "cautions": "Can cause drowsiness — don't drive. Avoid with alcohol and sedatives, in pregnancy and with liver disease.",
+  "lookalikes": "In wet places, young plants can be confused with deadly water hemlock. Be completely sure before digging roots.",
+  "model": {
+   "habitats": {
+    "2.3.2": 1,
+    "2.3.1": 0.7,
+    "2.1.2.2": 0.6,
+    "2.2.1": 0.4,
+    "6.1": 0.8,
+    "5.2": 0.7,
+    "6.3.1": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1500,
+    2000
+   ],
+   "moisture": [
+    0.6,
+    0.95
+   ],
+   "light": "half",
+   "near": {
+    "water": 0.8,
+    "edge": 0.3
+   }
+  }
+ },
+ {
+  "id": "thyme",
+  "name": "Wild Thyme",
+  "de": "Feld-Thymian / Quendel",
+  "latin": "Thymus serpyllum agg.",
+  "gbif": "Thymus",
+  "rank": "GENUS",
+  "family": "Lamiaceae",
+  "uses": [
+   "Respiratory",
+   "Immune & colds",
+   "Digestion"
+  ],
+  "parts": "Flowering tops",
+  "habitat": "Dry, sunny grassland, rocky slopes, pastures and anthills.",
+  "altitude": "Lowlands to about 2800 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "some",
+  "properties": "Contains thymol and carvacrol, which are antiseptic and loosen mucus. Thyme preparations are approved in Europe for coughs from colds and bronchitis, and trials support shorter coughing. Also eases bloating.",
+  "preparation": "Infusion of 1–2 tsp per cup, sweetened with honey; steam inhalation.",
+  "cautions": "Safe in normal amounts. Essential oil must be diluted and kept away from small children.",
+  "lookalikes": "Several closely related wild thymes grow in Switzerland; they are used the same way.",
+  "model": {
+   "habitats": {
+    "4.2.4": 1,
+    "4.1": 0.9,
+    "4.3.1": 0.8,
+    "4.3.2": 0.6,
+    "4.3.3": 0.5,
+    "4.3.5": 0.6,
+    "3.3": 0.4,
+    "3.4": 0.3,
+    "4.5.4": 0.4,
+    "4.5.3": 0.3,
+    "5.4": 0.4,
+    "6.4": 0.4,
+    "9.3.4": 0.3
+   },
+   "elev": [
+    190,
+    500,
+    2400,
+    3000
+   ],
+   "moisture": [
+    0.05,
+    0.4
+   ],
+   "light": "open",
+   "warm": 0.6,
+   "nutrients": [
+    "poor",
+    0.8
+   ]
+  }
+ },
+ {
+  "id": "elder",
+  "name": "Elder",
+  "de": "Schwarzer Holunder",
+  "latin": "Sambucus nigra",
+  "gbif": "Sambucus nigra",
+  "family": "Adoxaceae",
+  "uses": [
+   "Immune & colds",
+   "Respiratory"
+  ],
+  "parts": "Flowers, ripe cooked berries",
+  "habitat": "Hedges, woodland edges, river banks, farmyards.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   5,
+   6,
+   8,
+   9,
+   10
+  ],
+  "evidence": "some",
+  "properties": "Elderflower tea promotes sweating in feverish colds. Elderberry syrup shortened flu and cold symptoms in a few small trials. The berries are rich in anthocyanins and vitamin C.",
+  "preparation": "Flowers as tea or syrup (May–June); berries only cooked, as syrup or jelly (Aug–Oct).",
+  "cautions": "Raw or unripe berries, leaves and bark cause nausea and vomiting — always cook the berries.",
+  "lookalikes": "Dwarf elder (Attich) is poisonous: a non-woody plant with berry clusters pointing upwards. Red elderberry (Sambucus racemosa) at higher altitudes has red berries with toxic seeds.",
+  "model": {
+   "habitats": {
+    "5.3": 1,
+    "6.1": 0.8,
+    "6.3": 0.5,
+    "6.2.3": 0.4,
+    "6.2.4": 0.4,
+    "7.1": 0.6,
+    "8.1.5": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1100,
+    1600
+   ],
+   "moisture": [
+    0.4,
+    0.8
+   ],
+   "light": "half",
+   "nutrients": [
+    "rich",
+    0.8
+   ],
+   "near": {
+    "hedge": 0.8,
+    "edge": 0.7,
+    "buildings": 0.6,
+    "water": 0.4
+   }
+  }
+ },
+ {
+  "id": "plantain",
+  "name": "Ribwort Plantain",
+  "de": "Spitzwegerich",
+  "latin": "Plantago lanceolata",
+  "gbif": "Plantago lanceolata",
+  "family": "Plantaginaceae",
+  "uses": [
+   "Respiratory",
+   "Skin & wounds"
+  ],
+  "parts": "Leaves",
+  "habitat": "Meadows, pastures, paths and lawns.",
+  "altitude": "Lowlands to about 1800 m",
+  "season": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "evidence": "traditional",
+  "properties": "Ribwort syrup is a recognised traditional remedy in Europe for dry, irritating coughs: its mucilage soothes the throat. A crushed leaf is a classic field remedy for insect bites, nettle stings and small cuts.",
+  "preparation": "Syrup or tea for coughs; crush a fresh leaf and put it on a sting.",
+  "cautions": "Very safe. Its pollen can cause hay fever.",
+  "lookalikes": "Easy to recognise by its long leaves with parallel veins.",
+  "model": {
+   "habitats": {
+    "4.5.1": 1,
+    "4.5.3": 1,
+    "4.2.4": 0.8,
+    "4.5.2": 0.8,
+    "4.0": 0.6,
+    "4.0.0.0.1": 0.6,
+    "4.0.0.0.2": 0.6,
+    "4.0.0.0.3": 0.6,
+    "4.0.1": 0.6,
+    "7.1": 0.7,
+    "9.3.3": 0.6,
+    "8.1.5": 0.8,
+    "8.1.6": 0.5,
+    "4.5.4": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1400,
+    1900
+   ],
+   "moisture": [
+    0.2,
+    0.6
+   ],
+   "light": "open",
+   "near": {
+    "paths": 0.5
+   }
+  }
+ },
+ {
+  "id": "wildgarlic",
+  "name": "Wild Garlic",
+  "de": "Bärlauch",
+  "latin": "Allium ursinum",
+  "gbif": "Allium ursinum",
+  "family": "Amaryllidaceae",
+  "uses": [
+   "Circulation & heart",
+   "Digestion"
+  ],
+  "parts": "Leaves, flowers",
+  "habitat": "Damp, shady deciduous woodland, often in large carpets.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   3,
+   4,
+   5
+  ],
+  "evidence": "traditional",
+  "properties": "Like garlic, it contains sulphur compounds traditionally used to support healthy blood pressure and cholesterol and to aid digestion. Mainly eaten as a spring tonic.",
+  "preparation": "Fresh leaves in pesto, soups and salads, before flowering.",
+  "cautions": "There are deadly lookalikes, and every spring people in Switzerland are poisoned by mistake.",
+  "lookalikes": "Lily of the valley, autumn crocus and young arum leaves are highly poisonous. Pick leaf by leaf and crush each one — only wild garlic smells strongly of garlic (beware of garlic-smelling fingers).",
+  "protection": "Picking is not allowed in nature reserves; some cantons limit amounts.",
+  "model": {
+   "habitats": {
+    "6.1.4": 1,
+    "6.1": 0.9,
+    "6.3.1": 1,
+    "6.2.3": 0.7,
+    "6.2.4": 0.8,
+    "6.3.3": 0.7,
+    "6.3": 0.6,
+    "6.2": 0.5,
+    "6.2.5": 0.4,
+    "6.3.2": 0.6,
+    "6.1.2": 0.6
+   },
+   "elev": [
+    190,
+    300,
+    1000,
+    1500
+   ],
+   "moisture": [
+    0.5,
+    0.85
+   ],
+   "light": "shade",
+   "lime": [
+    "lime",
+    0.5
+   ],
+   "nutrients": [
+    "rich",
+    0.7
+   ],
+   "forest": "broadleaf",
+   "near": {
+    "water": 0.4
+   }
+  }
+ },
+ {
+  "id": "comfrey",
+  "name": "Comfrey",
+  "de": "Gemeiner Beinwell",
+  "latin": "Symphytum officinale",
+  "gbif": "Symphytum officinale",
+  "family": "Boraginaceae",
+  "uses": [
+   "Pain & inflammation",
+   "Skin & wounds"
+  ],
+  "parts": "Root, leaves (external use)",
+  "habitat": "Damp ground along rivers, ditches and wet meadows.",
+  "altitude": "Lowlands to about 1000 m",
+  "season": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "evidence": "good",
+  "properties": "Called \"knitbone\": it contains allantoin, which helps tissue repair. Several good trials show comfrey root ointment reduces pain and swelling of sprains, bruises and back pain.",
+  "preparation": "External only: ointments, or poultices of mashed fresh root or leaves.",
+  "cautions": "Contains liver-damaging pyrrolizidine alkaloids — do not eat or drink it. Don't use on broken skin or for longer than a few weeks.",
+  "lookalikes": "Young leaves look like foxglove (deadly). Comfrey leaves feel rough and bristly, foxglove leaves soft and velvety.",
+  "model": {
+   "habitats": {
+    "2.3.2": 1,
+    "2.1.2.2": 0.8,
+    "6.1": 0.7,
+    "5.2": 0.6,
+    "7.1": 0.5,
+    "4.5.1": 0.4,
+    "2.3.1": 0.4
+   },
+   "elev": [
+    190,
+    250,
+    900,
+    1300
+   ],
+   "moisture": [
+    0.6,
+    0.95
+   ],
+   "light": "open",
+   "nutrients": [
+    "rich",
+    0.7
+   ],
+   "near": {
+    "water": 0.9,
+    "paths": 0.2
+   }
+  }
+ },
+ {
+  "id": "bilberry",
+  "name": "Bilberry",
+  "de": "Heidelbeere",
+  "latin": "Vaccinium myrtillus",
+  "gbif": "Vaccinium myrtillus",
+  "family": "Ericaceae",
+  "uses": [
+   "Digestion",
+   "Circulation & heart"
+  ],
+  "parts": "Berries, leaves",
+  "habitat": "Acidic soil in conifer forests, dwarf-shrub heaths and above the tree line.",
+  "altitude": "About 600–2500 m",
+  "season": [
+   7,
+   8,
+   9
+  ],
+  "evidence": "some",
+  "properties": "Dried berries are a traditional remedy for diarrhoea and a mouth rinse for inflamed gums. The berries are rich in anthocyanins, studied for eye and blood-vessel health. Fresh berries are mildly laxative, dried ones the opposite.",
+  "preparation": "Chew dried berries or make a decoction; fresh berries as food.",
+  "cautions": "Berries are safe as food. Don't use the leaves long term.",
+  "lookalikes": "Bog bilberry is similar. Never confuse with poisonous berries such as deadly nightshade or herb paris.",
+  "model": {
+   "habitats": {
+    "6.6.2": 1,
+    "6.6": 0.8,
+    "6.6.1": 0.8,
+    "5.4": 1,
+    "6.2.2": 0.7,
+    "6.5": 0.8,
+    "6.5.1": 0.6,
+    "6.2.5": 0.5,
+    "4.3.5": 0.5,
+    "5.3.9": 0.4,
+    "6.4": 0.3
+   },
+   "elev": [
+    400,
+    900,
+    2200,
+    2600
+   ],
+   "moisture": [
+    0.35,
+    0.8
+   ],
+   "light": "half",
+   "lime": [
+    "acid",
+    1
+   ],
+   "nutrients": [
+    "poor",
+    0.8
+   ],
+   "forest": "conifer"
+  }
+ },
+ {
+  "id": "rosehip",
+  "name": "Dog Rose",
+  "de": "Hunds-Rose (Hagebutte)",
+  "latin": "Rosa canina",
+  "gbif": "Rosa canina",
+  "family": "Rosaceae",
+  "uses": [
+   "Immune & colds",
+   "Pain & inflammation"
+  ],
+  "parts": "Ripe hips",
+  "habitat": "Hedges, woodland edges, dry slopes and pastures.",
+  "altitude": "Lowlands to about 1600 m",
+  "season": [
+   9,
+   10,
+   11
+  ],
+  "evidence": "some",
+  "properties": "Rose hips are very rich in vitamin C. Trials of rose-hip powder found modest relief of osteoarthritis pain. Rose-hip tea (\"Hagebuttentee\") is a traditional mild diuretic.",
+  "preparation": "Tea, syrup or jam; remove the hairy seeds.",
+  "cautions": "The seed hairs irritate skin and gut (they are \"itching powder\").",
+  "lookalikes": "Other wild roses have similar hips and are used the same way.",
+  "model": {
+   "habitats": {
+    "5.3": 1,
+    "4.2.4": 0.6,
+    "6.4": 0.4,
+    "7.1": 0.4,
+    "4.5.3": 0.3,
+    "9.3.4": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1300,
+    1800
+   ],
+   "moisture": [
+    0.15,
+    0.55
+   ],
+   "light": "open",
+   "lime": [
+    "lime",
+    0.3
+   ],
+   "warm": 0.4,
+   "near": {
+    "hedge": 0.9,
+    "edge": 0.7
+   }
+  }
+ },
+ {
+  "id": "lemonbalm",
+  "name": "Lemon Balm",
+  "de": "Zitronenmelisse",
+  "latin": "Melissa officinalis",
+  "gbif": "Melissa officinalis",
+  "family": "Lamiaceae",
+  "uses": [
+   "Sleep & calm",
+   "Digestion",
+   "Skin & wounds"
+  ],
+  "parts": "Leaves",
+  "habitat": "Garden escape near villages, walls and vineyards, mainly in warm areas such as Ticino, Valais and the Lake Geneva region.",
+  "altitude": "Lowlands",
+  "season": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "some",
+  "properties": "Gently calming with a lemon scent. Small trials suggest better mood, calmness and sleep, especially combined with valerian. Creams with lemon balm extract can shorten cold sores. Soothes nervous stomach complaints.",
+  "preparation": "Infusion of fresh or dried leaves; best fresh.",
+  "cautions": "May interact with thyroid medication and sedatives.",
+  "lookalikes": "Mints and catnip look similar but lack the clear lemon scent.",
+  "model": {
+   "habitats": {
+    "7.1": 0.8,
+    "9.2": 0.4,
+    "8.1.6": 0.7,
+    "9.3.3": 0.3,
+    "5.3": 0.3,
+    "8.2.3": 0.5
+   },
+   "elev": [
+    190,
+    200,
+    700,
+    1000
+   ],
+   "moisture": [
+    0.3,
+    0.6
+   ],
+   "light": "open",
+   "warm": 0.9,
+   "nutrients": [
+    "rich",
+    0.5
+   ],
+   "near": {
+    "buildings": 0.9
+   }
+  }
+ },
+ {
+  "id": "feverfew",
+  "name": "Feverfew",
+  "de": "Mutterkraut",
+  "latin": "Tanacetum parthenium",
+  "gbif": "Tanacetum parthenium",
+  "family": "Asteraceae",
+  "uses": [
+   "Pain & inflammation",
+   "Women's health"
+  ],
+  "parts": "Leaves",
+  "habitat": "Walls, rubble, village paths and old gardens (garden escape).",
+  "altitude": "Lowlands to about 1000 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "some",
+  "properties": "Taken daily, feverfew may reduce the number of migraine attacks in some people, though trial results are mixed. Traditionally used for fever, period pain and arthritis.",
+  "preparation": "1–2 fresh leaves daily, or capsules.",
+  "cautions": "Can cause mouth ulcers. Avoid in pregnancy and with blood thinners; stop slowly to avoid rebound headaches.",
+  "lookalikes": "Looks like chamomile, but has flat flower centres and a bitter, pungent smell.",
+  "model": {
+   "habitats": {
+    "7.1": 0.9,
+    "9.2": 0.5,
+    "9.1": 0.6,
+    "9.3.3": 0.3,
+    "8.2.3": 0.4,
+    "9.0.1": 0.4
+   },
+   "elev": [
+    190,
+    250,
+    800,
+    1200
+   ],
+   "moisture": [
+    0.2,
+    0.55
+   ],
+   "light": "open",
+   "warm": 0.6,
+   "near": {
+    "buildings": 1
+   }
+  }
+ },
+ {
+  "id": "ladysmantle",
+  "name": "Lady's Mantle",
+  "de": "Frauenmantel",
+  "latin": "Alchemilla vulgaris agg.",
+  "gbif": "Alchemilla",
+  "rank": "GENUS",
+  "family": "Rosaceae",
+  "uses": [
+   "Women's health",
+   "Digestion",
+   "Skin & wounds"
+  ],
+  "parts": "Leaves, flowering herb",
+  "habitat": "Meadows and pastures, especially in the mountains. Look for the dewdrops on its pleated leaves.",
+  "altitude": "Lowlands to about 2500 m, commonest in the mountains",
+  "season": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "evidence": "traditional",
+  "properties": "Rich in astringent tannins. Traditionally used for heavy or painful periods and menopausal complaints, for mild diarrhoea, and as a mouth rinse or compress for small wounds.",
+  "preparation": "Infusion of 2 tsp dried herb per cup.",
+  "cautions": "Generally safe. The tannins can upset sensitive stomachs.",
+  "lookalikes": "Many very similar Alchemilla species exist in Switzerland; they are used the same way.",
+  "model": {
+   "habitats": {
+    "4.5.2": 1,
+    "4.5.4": 1,
+    "4.5.3": 0.7,
+    "4.5.1": 0.5,
+    "4.3.3": 0.7,
+    "4.3.1": 0.5,
+    "4.3.5": 0.6,
+    "4.4": 0.6,
+    "2.3.2": 0.5,
+    "5.2": 0.5,
+    "4.3.2": 0.4
+   },
+   "elev": [
+    400,
+    900,
+    2300,
+    2800
+   ],
+   "moisture": [
+    0.4,
+    0.8
+   ],
+   "light": "open",
+   "near": {
+    "water": 0.3
+   }
+  }
+ },
+ {
+  "id": "hawthorn",
+  "name": "Hawthorn",
+  "de": "Eingriffeliger Weissdorn",
+  "latin": "Crataegus monogyna",
+  "gbif": "Crataegus monogyna",
+  "family": "Rosaceae",
+  "uses": [
+   "Circulation & heart"
+  ],
+  "parts": "Flowering twigs, berries",
+  "habitat": "Hedges, woodland edges, pastures and dry slopes.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "evidence": "some",
+  "properties": "The leading European heart herb. Extracts of leaves and flowers were tested for mild heart failure, with some improvement in exercise tolerance and symptoms, though a large trial did not confirm a survival benefit.",
+  "preparation": "Tea from flowering twigs; standardised extracts for heart use.",
+  "cautions": "Use for the heart only under medical supervision. Can interact with heart medication (digoxin, beta blockers, nitrates).",
+  "lookalikes": "Midland hawthorn (C. laevigata) is similar and used the same way.",
+  "model": {
+   "habitats": {
+    "5.3": 1,
+    "6.3.3": 0.5,
+    "6.2.1": 0.5,
+    "6.4": 0.3,
+    "4.2.4": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1000,
+    1500
+   ],
+   "moisture": [
+    0.2,
+    0.6
+   ],
+   "light": "open",
+   "warm": 0.3,
+   "near": {
+    "hedge": 1,
+    "edge": 0.8
+   }
+  }
+ },
+ {
+  "id": "linden",
+  "name": "Linden (Lime tree)",
+  "de": "Linde",
+  "latin": "Tilia cordata / T. platyphyllos",
+  "gbif": "Tilia",
+  "rank": "GENUS",
+  "family": "Malvaceae",
+  "uses": [
+   "Immune & colds",
+   "Sleep & calm"
+  ],
+  "parts": "Flowers with bracts",
+  "habitat": "Mixed deciduous forest on slopes, village squares and avenues.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   6,
+   7
+  ],
+  "evidence": "traditional",
+  "properties": "Linden-flower tea (\"Lindenblütentee\") is a traditional remedy for feverish colds — it promotes sweating — and for dry coughs. It is also gently calming.",
+  "preparation": "Infusion of 1–2 tsp dried flowers per cup, drunk hot.",
+  "cautions": "Very safe. Use flowers from trees away from traffic.",
+  "lookalikes": "Easy to recognise by heart-shaped leaves and flowers hanging from a pale, wing-like bract.",
+  "model": {
+   "habitats": {
+    "6.3.2": 1,
+    "6.3.1": 0.8,
+    "6.2.1": 0.5,
+    "6.2.4": 0.5,
+    "6.3.3": 0.6,
+    "6.2.3": 0.4,
+    "6.3": 0.5,
+    "6.2": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1000,
+    1500
+   ],
+   "moisture": [
+    0.25,
+    0.65
+   ],
+   "light": "half",
+   "lime": [
+    "lime",
+    0.3
+   ],
+   "warm": 0.3,
+   "forest": "broadleaf",
+   "near": {
+    "buildings": 0.3
+   }
+  }
+ },
+ {
+  "id": "coltsfoot",
+  "name": "Coltsfoot",
+  "de": "Huflattich",
+  "latin": "Tussilago farfara",
+  "gbif": "Tussilago farfara",
+  "family": "Asteraceae",
+  "uses": [
+   "Respiratory"
+  ],
+  "parts": "Leaves, flowers",
+  "habitat": "Bare, damp, clay ground: embankments, gravel pits, landslides and building sites. Among the first flowers in spring.",
+  "altitude": "Lowlands to about 2300 m",
+  "season": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "evidence": "traditional",
+  "properties": "Historically one of the main cough remedies — its Latin name means \"cough dispeller\". The mucilage soothes irritated airways.",
+  "preparation": "Only use specially bred, alkaloid-free varieties sold in pharmacies.",
+  "cautions": "Wild plants contain liver-damaging pyrrolizidine alkaloids. Do not use wild-picked coltsfoot internally.",
+  "lookalikes": "Flowers appear before the leaves and look like small dandelions; leaves resemble butterbur.",
+  "model": {
+   "habitats": {
+    "3.2.1": 0.9,
+    "3.2.2": 0.8,
+    "3.3": 0.7,
+    "7.1": 0.7,
+    "9.1": 0.9,
+    "9.0.1": 0.7,
+    "9.3.3": 0.4,
+    "4.1": 0.4,
+    "2.1": 0.5
+   },
+   "elev": [
+    190,
+    300,
+    1800,
+    2400
+   ],
+   "moisture": [
+    0.45,
+    0.85
+   ],
+   "light": "open",
+   "lime": [
+    "lime",
+    0.5
+   ],
+   "near": {
+    "water": 0.4,
+    "paths": 0.3
+   }
+  }
+ },
+ {
+  "id": "mullein",
+  "name": "Mullein",
+  "de": "Kleinblütige Königskerze",
+  "latin": "Verbascum thapsus",
+  "gbif": "Verbascum thapsus",
+  "family": "Scrophulariaceae",
+  "uses": [
+   "Respiratory"
+  ],
+  "parts": "Flowers",
+  "habitat": "Sunny, dry, disturbed ground: clearings, gravel, embankments and walls.",
+  "altitude": "Lowlands to about 1800 m",
+  "season": [
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "The yellow flowers are rich in mucilage and saponins and are a traditional remedy for coughs and bronchitis. Mullein-flower oil is used traditionally for earache.",
+  "preparation": "Flower tea, strained through a cloth to remove irritating hairs.",
+  "cautions": "Always strain the tea well. Don't put anything in the ear if the eardrum may be damaged.",
+  "lookalikes": "Several other mulleins grow in Switzerland; dense-flowered mullein (V. densiflorum) is used the same way.",
+  "model": {
+   "habitats": {
+    "7.1": 0.8,
+    "9.1": 0.8,
+    "9.0.1": 0.7,
+    "3.2.1": 0.7,
+    "9.3.4": 0.7,
+    "4.1": 0.6,
+    "4.2.4": 0.4,
+    "3.3": 0.4,
+    "6.4": 0.3
+   },
+   "elev": [
+    190,
+    300,
+    1400,
+    1900
+   ],
+   "moisture": [
+    0.05,
+    0.4
+   ],
+   "light": "open",
+   "warm": 0.6,
+   "near": {
+    "paths": 0.3
+   }
+  }
+ },
+ {
+  "id": "meadowsweet",
+  "name": "Meadowsweet",
+  "de": "Echtes Mädesüss",
+  "latin": "Filipendula ulmaria",
+  "gbif": "Filipendula ulmaria",
+  "family": "Rosaceae",
+  "uses": [
+   "Pain & inflammation",
+   "Digestion",
+   "Immune & colds"
+  ],
+  "parts": "Flowers",
+  "habitat": "Wet meadows, fens, ditches and stream banks.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   6,
+   7,
+   8
+  ],
+  "evidence": "traditional",
+  "properties": "Contains salicylates — aspirin was named after its old name, Spiraea. Traditionally used for feverish colds, rheumatic pain and heartburn.",
+  "preparation": "Flower infusion (not boiled).",
+  "cautions": "Avoid with aspirin allergy, in children with fever, and with blood thinners.",
+  "lookalikes": "Creamy, almond-scented flower clusters; water hemlock grows in similar places, so learn the leaves.",
+  "model": {
+   "habitats": {
+    "2.3.2": 1,
+    "2.2.1": 0.6,
+    "2.3.1": 0.7,
+    "2.1.2.2": 0.7,
+    "6.1": 0.7,
+    "5.2": 0.7
+   },
+   "elev": [
+    190,
+    300,
+    1300,
+    1800
+   ],
+   "moisture": [
+    0.7,
+    1
+   ],
+   "light": "open",
+   "near": {
+    "water": 1
+   }
+  }
+ },
+ {
+  "id": "horsetail",
+  "name": "Field Horsetail",
+  "de": "Acker-Schachtelhalm",
+  "latin": "Equisetum arvense",
+  "gbif": "Equisetum arvense",
+  "family": "Equisetaceae",
+  "uses": [
+   "Urinary",
+   "Skin & wounds"
+  ],
+  "parts": "Green summer shoots",
+  "habitat": "Damp fields, embankments, ditches and gravel.",
+  "altitude": "Lowlands to about 2400 m",
+  "season": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "evidence": "traditional",
+  "properties": "Rich in silica. Recognised traditionally in Europe to flush the urinary tract and support small wounds; used in baths and compresses.",
+  "preparation": "Decoction of dried shoots (simmered 10–15 minutes).",
+  "cautions": "Not for fluid retention caused by heart or kidney disease. Long-term use may lower vitamin B1.",
+  "lookalikes": "Marsh horsetail (E. palustre) is poisonous to livestock and grows in wetter places — get identification right.",
+  "model": {
+   "habitats": {
+    "8.2": 0.6,
+    "7.1": 0.7,
+    "9.3.4": 0.6,
+    "9.1": 0.6,
+    "3.2.1": 0.6,
+    "2.3.2": 0.4,
+    "4.0.1": 0.4,
+    "3.2.2": 0.5,
+    "9.3.3": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1600,
+    2300
+   ],
+   "moisture": [
+    0.5,
+    0.85
+   ],
+   "light": "open",
+   "near": {
+    "water": 0.5,
+    "paths": 0.4
+   }
+  }
+ },
+ {
+  "id": "gentian",
+  "name": "Great Yellow Gentian",
+  "de": "Gelber Enzian",
+  "latin": "Gentiana lutea",
+  "gbif": "Gentiana lutea",
+  "family": "Gentianaceae",
+  "uses": [
+   "Digestion"
+  ],
+  "parts": "Root",
+  "habitat": "Mountain pastures and meadows, mainly on limestone in the Jura and Alps.",
+  "altitude": "About 1000–2500 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "One of the most bitter substances known. The bitterness stimulates saliva, stomach juices and appetite, and is used for poor appetite and indigestion. The root is distilled into the Swiss \"Enzian\" schnapps.",
+  "preparation": "Tiny amounts as tincture or bitters before meals.",
+  "cautions": "Avoid with stomach ulcers or high blood pressure.",
+  "lookalikes": "The white false hellebore (Weisser Germer) is DEADLY and grows in the same pastures. Gentian leaves are opposite; false hellebore leaves are alternate and pleated.",
+  "protection": "Protected or partially protected in several cantons; digging roots needs a permit.",
+  "model": {
+   "habitats": {
+    "4.3.1": 0.9,
+    "4.2.4": 0.7,
+    "4.5.4": 0.7,
+    "4.5.2": 0.6,
+    "4.3.3": 0.8,
+    "4.3.5": 0.5,
+    "5.4": 0.3
+   },
+   "elev": [
+    800,
+    1100,
+    2100,
+    2500
+   ],
+   "moisture": [
+    0.25,
+    0.6
+   ],
+   "light": "open",
+   "lime": [
+    "lime",
+    0.7
+   ]
+  }
+ },
+ {
+  "id": "cowslip",
+  "name": "Cowslip",
+  "de": "Frühlings-Schlüsselblume",
+  "latin": "Primula veris",
+  "gbif": "Primula veris",
+  "family": "Primulaceae",
+  "uses": [
+   "Respiratory"
+  ],
+  "parts": "Root, flowers",
+  "habitat": "Dry, sunny meadows, open woodland and slopes, often on limestone.",
+  "altitude": "Lowlands to about 2000 m",
+  "season": [
+   3,
+   4,
+   5
+  ],
+  "evidence": "some",
+  "properties": "The root contains saponins that loosen mucus. Primrose root is used with thyme in approved cough remedies for bronchitis; the flowers make a gentle tea.",
+  "preparation": "Use pharmacy products; flower tea for mild coughs.",
+  "cautions": "Can upset the stomach. Avoid with primrose allergy.",
+  "lookalikes": "The oxlip (P. elatior) is similar but paler and unscented.",
+  "protection": "Protected in some cantons — please buy rather than dig the roots.",
+  "model": {
+   "habitats": {
+    "4.2.4": 1,
+    "4.5.1": 0.6,
+    "4.5.2": 0.5,
+    "6.2.1": 0.6,
+    "6.4": 0.6,
+    "6.3.3": 0.4,
+    "5.3": 0.3
+   },
+   "elev": [
+    190,
+    300,
+    1500,
+    2000
+   ],
+   "moisture": [
+    0.15,
+    0.5
+   ],
+   "light": "open",
+   "lime": [
+    "lime",
+    0.7
+   ],
+   "warm": 0.4,
+   "near": {
+    "edge": 0.5
+   }
+  }
+ },
+ {
+  "id": "juniper",
+  "name": "Common Juniper",
+  "de": "Gemeiner Wacholder",
+  "latin": "Juniperus communis",
+  "gbif": "Juniperus communis",
+  "family": "Cupressaceae",
+  "uses": [
+   "Digestion",
+   "Urinary"
+  ],
+  "parts": "Ripe berries (cones)",
+  "habitat": "Dry pastures, heaths, open pine woods and alpine dwarf-shrub heath.",
+  "altitude": "Lowlands to about 3000 m",
+  "season": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "evidence": "traditional",
+  "properties": "The berries ease bloating and indigestion and are a traditional diuretic. Used in cooking, sauerkraut and gin.",
+  "preparation": "A few crushed berries as tea or in food, for a short time only.",
+  "cautions": "Avoid in pregnancy and with kidney disease. Don't take for longer than 4 weeks.",
+  "lookalikes": "Savin juniper (Sefistrauch), found in dry inner-Alpine valleys, is highly poisonous: it has scale-like leaves and smells unpleasant.",
+  "model": {
+   "habitats": {
+    "4.2.4": 0.6,
+    "4.3": 0.6,
+    "4.3.5": 0.6,
+    "5.4": 1,
+    "6.4": 0.8,
+    "6.4.3": 0.9,
+    "4.5.4": 0.3,
+    "3.3": 0.3
+   },
+   "elev": [
+    300,
+    600,
+    2400,
+    2900
+   ],
+   "moisture": [
+    0.05,
+    0.45
+   ],
+   "light": "open",
+   "warm": 0.5,
+   "nutrients": [
+    "poor",
+    0.8
+   ]
+  }
+ },
+ {
+  "id": "mallow",
+  "name": "Common Mallow",
+  "de": "Wilde Malve",
+  "latin": "Malva sylvestris",
+  "gbif": "Malva sylvestris",
+  "family": "Malvaceae",
+  "uses": [
+   "Respiratory",
+   "Digestion"
+  ],
+  "parts": "Leaves, flowers",
+  "habitat": "Paths, walls, rubble and field edges near villages, in warm lowlands.",
+  "altitude": "Lowlands to about 1000 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "Full of soothing mucilage. Recognised traditionally for dry coughs, sore throats and irritation of the mouth and stomach.",
+  "preparation": "Cold infusion (soak for 1–2 hours) keeps the mucilage intact.",
+  "cautions": "Take other medicines an hour apart, as the mucilage can slow their absorption.",
+  "lookalikes": "Other mallows are similar and used the same way.",
+  "model": {
+   "habitats": {
+    "7.1": 1,
+    "9.1": 0.6,
+    "9.0.1": 0.5,
+    "9.3.3": 0.4,
+    "9.2": 0.4,
+    "8.2.3": 0.4,
+    "8.1.6": 0.4
+   },
+   "elev": [
+    190,
+    200,
+    800,
+    1100
+   ],
+   "moisture": [
+    0.25,
+    0.6
+   ],
+   "light": "open",
+   "warm": 0.6,
+   "nutrients": [
+    "rich",
+    0.8
+   ],
+   "near": {
+    "buildings": 0.9,
+    "paths": 0.5
+   }
+  }
+ },
+ {
+  "id": "marjoram",
+  "name": "Wild Marjoram (Oregano)",
+  "de": "Echter Dost",
+  "latin": "Origanum vulgare",
+  "gbif": "Origanum vulgare",
+  "family": "Lamiaceae",
+  "uses": [
+   "Digestion",
+   "Respiratory"
+  ],
+  "parts": "Flowering tops",
+  "habitat": "Dry, sunny grassland, woodland edges and embankments, often on limestone.",
+  "altitude": "Lowlands to about 1600 m",
+  "season": [
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "Rich in antiseptic essential oils. Used traditionally for bloating and indigestion and as a tea or steam for coughs and colds.",
+  "preparation": "Infusion of 1–2 tsp per cup, or as a kitchen herb.",
+  "cautions": "Safe in normal amounts; avoid concentrated oil internally.",
+  "lookalikes": "Wild basil and other mints grow nearby; oregano has a distinct smell.",
+  "model": {
+   "habitats": {
+    "4.2.4": 1,
+    "5.3": 0.4,
+    "6.4": 0.6,
+    "6.2.1": 0.5,
+    "4.1": 0.5,
+    "9.3.4": 0.4,
+    "7.1": 0.3
+   },
+   "elev": [
+    190,
+    300,
+    1300,
+    1800
+   ],
+   "moisture": [
+    0.1,
+    0.45
+   ],
+   "light": "open",
+   "lime": [
+    "lime",
+    0.7
+   ],
+   "warm": 0.7,
+   "near": {
+    "edge": 0.8,
+    "hedge": 0.5
+   }
+  }
+ },
+ {
+  "id": "masterwort",
+  "name": "Masterwort",
+  "de": "Meisterwurz",
+  "latin": "Peucedanum ostruthium",
+  "gbif": "Peucedanum ostruthium",
+  "family": "Apiaceae",
+  "uses": [
+   "Digestion",
+   "Immune & colds",
+   "Respiratory"
+  ],
+  "parts": "Root",
+  "habitat": "Tall-herb meadows, stream banks and around alpine huts.",
+  "altitude": "About 1200–2500 m",
+  "season": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "evidence": "traditional",
+  "properties": "A cherished alpine folk remedy — \"Meister\" meaning master of all remedies. The aromatic, bitter root was used for poor digestion, colds and fever and as a general tonic. Used in alpine herb liqueurs.",
+  "preparation": "Root as tea, tincture or chewed in small amounts.",
+  "cautions": "Can cause sun sensitivity. Avoid in pregnancy.",
+  "lookalikes": "DANGER: it belongs to the carrot family, which includes deadly plants such as hemlock and water hemlock. Only collect with expert identification.",
+  "model": {
+   "habitats": {
+    "5.2": 1,
+    "4.5.4": 0.6,
+    "2.3.2": 0.6,
+    "5.3.9": 0.8,
+    "4.5.2": 0.4,
+    "4.3.3": 0.5,
+    "3.3": 0.3
+   },
+   "elev": [
+    1000,
+    1300,
+    2300,
+    2700
+   ],
+   "moisture": [
+    0.55,
+    0.9
+   ],
+   "light": "open",
+   "lime": [
+    "acid",
+    0.3
+   ],
+   "nutrients": [
+    "rich",
+    0.6
+   ],
+   "near": {
+    "water": 0.6,
+    "buildings": 0.4
+   }
+  }
+ },
+ {
+  "id": "woodruff",
+  "name": "Sweet Woodruff",
+  "de": "Waldmeister",
+  "latin": "Galium odoratum",
+  "gbif": "Galium odoratum",
+  "family": "Rubiaceae",
+  "uses": [
+   "Sleep & calm"
+  ],
+  "parts": "Herb, picked before flowering and wilted",
+  "habitat": "Shady beech and mixed forests with rich soil.",
+  "altitude": "Lowlands to about 1600 m",
+  "season": [
+   4,
+   5
+  ],
+  "evidence": "traditional",
+  "properties": "Smells of hay when wilted because of coumarin. Used traditionally as a mild calming tea and for headaches; famous for flavouring May punch.",
+  "preparation": "Small amounts of wilted herb, as tea or flavouring.",
+  "cautions": "Large amounts of coumarin cause headaches and can harm the liver. Not with blood thinners.",
+  "lookalikes": "Other bedstraws look similar but lack the hay scent.",
+  "model": {
+   "habitats": {
+    "6.2.3": 1,
+    "6.2.4": 0.9,
+    "6.2.5": 0.8,
+    "6.2": 0.7,
+    "6.3.1": 0.6,
+    "6.3.2": 0.6,
+    "6.3.3": 0.6,
+    "6.2.1": 0.3,
+    "6.2.2": 0.2
+   },
+   "elev": [
+    250,
+    400,
+    1300,
+    1600
+   ],
+   "moisture": [
+    0.35,
+    0.7
+   ],
+   "light": "shade",
+   "forest": "broadleaf"
+  }
+ },
+ {
+  "id": "hops",
+  "name": "Hops",
+  "de": "Hopfen",
+  "latin": "Humulus lupulus",
+  "gbif": "Humulus lupulus",
+  "family": "Cannabaceae",
+  "uses": [
+   "Sleep & calm",
+   "Women's health"
+  ],
+  "parts": "Female cones",
+  "habitat": "Climbing in riverside woods, hedges and damp thickets.",
+  "altitude": "Lowlands to about 1200 m",
+  "season": [
+   8,
+   9
+  ],
+  "evidence": "some",
+  "properties": "Sedative, usually combined with valerian; studies of the combination show improved sleep. Hops contain plant oestrogens studied for menopausal symptoms. A bitter for digestion.",
+  "preparation": "Tea from dried cones, or a hop pillow.",
+  "cautions": "Can cause drowsiness. Avoid with hormone-sensitive conditions and depression.",
+  "lookalikes": "The cones are distinctive.",
+  "model": {
+   "habitats": {
+    "6.1": 1,
+    "5.3": 0.7,
+    "2.1.2.2": 0.4,
+    "6.3.3": 0.3
+   },
+   "elev": [
+    190,
+    250,
+    900,
+    1300
+   ],
+   "moisture": [
+    0.55,
+    0.9
+   ],
+   "light": "half",
+   "nutrients": [
+    "rich",
+    0.7
+   ],
+   "near": {
+    "water": 0.8,
+    "hedge": 0.6,
+    "edge": 0.5
+   }
+  }
+ },
+ {
+  "id": "selfheal",
+  "name": "Self-heal",
+  "de": "Kleine Braunelle",
+  "latin": "Prunella vulgaris",
+  "gbif": "Prunella vulgaris",
+  "family": "Lamiaceae",
+  "uses": [
+   "Skin & wounds",
+   "Respiratory"
+  ],
+  "parts": "Flowering herb",
+  "habitat": "Meadows, pastures, lawns and forest paths.",
+  "altitude": "Lowlands to about 2000 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "As the name suggests, a traditional wound herb. Its astringent tannins make it useful as a gargle for sore throats and mouth inflammation.",
+  "preparation": "Infusion for gargling or compresses.",
+  "cautions": "Generally safe.",
+  "lookalikes": "Large self-heal and cut-leaved self-heal are close relatives.",
+  "model": {
+   "habitats": {
+    "4.5.3": 1,
+    "4.5.1": 0.8,
+    "4.5.2": 0.8,
+    "4.5.4": 0.7,
+    "4.0.0.0.1": 0.6,
+    "4.0.0.0.2": 0.6,
+    "4.0.0.0.3": 0.6,
+    "2.3.2": 0.5,
+    "2.3.1": 0.5,
+    "9.3.3": 0.5,
+    "4.2.4": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1600,
+    2100
+   ],
+   "moisture": [
+    0.35,
+    0.75
+   ],
+   "light": "open",
+   "near": {
+    "paths": 0.5
+   }
+  }
+ },
+ {
+  "id": "birch",
+  "name": "Silver Birch",
+  "de": "Hänge-Birke",
+  "latin": "Betula pendula",
+  "gbif": "Betula pendula",
+  "family": "Betulaceae",
+  "uses": [
+   "Urinary",
+   "Pain & inflammation"
+  ],
+  "parts": "Young leaves",
+  "habitat": "Clearings, moors, heaths and forest edges on poor soil.",
+  "altitude": "Lowlands to about 1900 m",
+  "season": [
+   4,
+   5,
+   6
+  ],
+  "evidence": "traditional",
+  "properties": "Birch-leaf tea is recognised traditionally in Europe to increase urine flow and flush the urinary tract, and is used in rheumatism teas.",
+  "preparation": "Infusion of young spring leaves, with plenty of fluid.",
+  "cautions": "Not for fluid retention caused by heart or kidney disease. Birch pollen allergy is common.",
+  "lookalikes": "Downy birch (B. pubescens) is similar and used the same way.",
+  "model": {
+   "habitats": {
+    "6.5": 1,
+    "6.5.1": 1,
+    "2.4.1": 0.5,
+    "5.3": 0.4,
+    "6.4": 0.5,
+    "6.2.2": 0.4,
+    "3.2.1": 0.4,
+    "9.1": 0.5,
+    "6.6": 0.2
+   },
+   "elev": [
+    190,
+    300,
+    1600,
+    2000
+   ],
+   "moisture": [
+    0.2,
+    0.9
+   ],
+   "light": "open",
+   "lime": [
+    "acid",
+    0.4
+   ],
+   "near": {
+    "edge": 0.6,
+    "hedge": 0.5
+   }
+  }
+ },
+ {
+  "id": "mint",
+  "name": "Horse Mint",
+  "de": "Ross-Minze",
+  "latin": "Mentha longifolia",
+  "gbif": "Mentha longifolia",
+  "family": "Lamiaceae",
+  "uses": [
+   "Digestion",
+   "Respiratory"
+  ],
+  "parts": "Leaves",
+  "habitat": "Wet places: stream banks, ditches, wet pastures, often around troughs in the mountains.",
+  "altitude": "Lowlands to about 2000 m",
+  "season": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "evidence": "traditional",
+  "properties": "A wild cousin of peppermint with similar uses: relieves bloating, cramps and nausea and clears the airways in colds. (Peppermint oil has good evidence for irritable bowel syndrome.)",
+  "preparation": "Infusion of fresh or dried leaves.",
+  "cautions": "Can worsen heartburn. Don't use menthol oils on the face of infants.",
+  "lookalikes": "Other wild mints and hybrids are common; all smell of mint.",
+  "model": {
+   "habitats": {
+    "2.3.2": 1,
+    "2.1.2.2": 0.8,
+    "2.2.1": 0.6,
+    "6.1.2": 0.6,
+    "4.5.4": 0.5,
+    "5.2": 0.6,
+    "3.2.1": 0.5,
+    "7.1": 0.4
+   },
+   "elev": [
+    190,
+    300,
+    1700,
+    2200
+   ],
+   "moisture": [
+    0.65,
+    1
+   ],
+   "light": "open",
+   "nutrients": [
+    "rich",
+    0.5
+   ],
+   "near": {
+    "water": 1
+   }
+  }
+ },
+ {
+  "id": "lungwort",
+  "name": "Lungwort",
+  "de": "Echtes Lungenkraut",
+  "latin": "Pulmonaria officinalis",
+  "gbif": "Pulmonaria officinalis",
+  "family": "Boraginaceae",
+  "uses": [
+   "Respiratory"
+  ],
+  "parts": "Leaves",
+  "habitat": "Deciduous woods, hedges and shady slopes. Flowers change from pink to blue.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   3,
+   4,
+   5
+  ],
+  "evidence": "traditional",
+  "properties": "Named for its spotted, lung-like leaves (an old \"doctrine of signatures\"). The mucilage and tannins are used traditionally for coughs and hoarseness.",
+  "preparation": "Leaf infusion.",
+  "cautions": "Contains small amounts of pyrrolizidine alkaloids; use only occasionally.",
+  "lookalikes": "Several similar lungworts grow in Switzerland.",
+  "model": {
+   "habitats": {
+    "6.2.3": 0.9,
+    "6.2.4": 0.9,
+    "6.3.3": 0.9,
+    "6.3.1": 0.8,
+    "6.1.4": 0.8,
+    "6.3.2": 0.7,
+    "6.2": 0.6,
+    "6.3": 0.6,
+    "5.3": 0.4
+   },
+   "elev": [
+    250,
+    300,
+    1000,
+    1500
+   ],
+   "moisture": [
+    0.4,
+    0.75
+   ],
+   "light": "shade",
+   "lime": [
+    "lime",
+    0.6
+   ],
+   "forest": "broadleaf",
+   "near": {
+    "edge": 0.3
+   }
+  }
+ },
+ {
+  "id": "groundivy",
+  "name": "Ground Ivy",
+  "de": "Gundelrebe",
+  "latin": "Glechoma hederacea",
+  "gbif": "Glechoma hederacea",
+  "family": "Lamiaceae",
+  "uses": [
+   "Respiratory",
+   "Skin & wounds",
+   "Digestion"
+  ],
+  "parts": "Flowering herb",
+  "habitat": "Damp meadows, hedges, woodland edges and gardens.",
+  "altitude": "Lowlands to about 1500 m",
+  "season": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "evidence": "traditional",
+  "properties": "A traditional spring herb used for coughs and catarrh, as a mild digestive and externally for slow-healing wounds. A tasty wild herb in soups.",
+  "preparation": "Infusion or fresh in small amounts as a herb.",
+  "cautions": "Toxic to horses; for people, use only small amounts.",
+  "lookalikes": "Purple dead-nettle and henbit look similar; ground ivy has kidney-shaped leaves and a strong scent.",
+  "model": {
+   "habitats": {
+    "6.1": 0.8,
+    "6.1.4": 0.9,
+    "6.3.3": 0.7,
+    "6.3": 0.6,
+    "5.3": 0.7,
+    "4.5.1": 0.6,
+    "4.5.3": 0.6,
+    "7.1": 0.6,
+    "8.1.5": 0.7,
+    "4.0.0.0.1": 0.5,
+    "4.0.0.0.2": 0.5,
+    "4.0.0.0.3": 0.4,
+    "2.3.2": 0.5
+   },
+   "elev": [
+    190,
+    250,
+    1000,
+    1500
+   ],
+   "moisture": [
+    0.45,
+    0.8
+   ],
+   "light": "half",
+   "nutrients": [
+    "rich",
+    0.6
+   ],
+   "near": {
+    "hedge": 0.6,
+    "edge": 0.6,
+    "buildings": 0.3
+   }
+  }
+ }
 ]

@@ -1,0 +1,385 @@
+{
+ "chamomile": [
+  {
+   "file": "img/herbs/chamomile-1.jpg",
+   "author": "anaxvp",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/528185258",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/chamomile-2.jpg",
+   "author": "nar7",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/39210492",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/chamomile-3.jpg",
+   "author": "wolff christiane",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/138538077",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/chamomile-4.jpg",
+   "author": "Björn Sothmann",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/83129359",
+   "site": "iNaturalist"
+  }
+ ],
+ "arnica": [
+  {
+   "file": "img/herbs/arnica-1.jpg",
+   "author": "Marion Zöller",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/2001055",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/arnica-2.jpg",
+   "author": "Marion Zöller",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/2001058",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/arnica-3.jpg",
+   "author": "Marion Zöller",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/3970887",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/arnica-4.jpg",
+   "author": "Simon Eisele",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/137490118",
+   "site": "iNaturalist"
+  }
+ ],
+ "yarrow": [
+  {
+   "file": "img/herbs/yarrow-1.jpg",
+   "author": "philmb",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/92130675",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/yarrow-2.jpg",
+   "author": "Полина Яковлевна Нехаева (Лихачева)",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/102169457",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/yarrow-3.jpg",
+   "author": "ramazan_murtazaliev",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/31320160",
+   "site": "iNaturalist"
+  }
+ ],
+ "stjohnswort": [
+  {
+   "file": "img/herbs/stjohnswort-1.jpg",
+   "author": "akolter",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/283622526",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/stjohnswort-2.jpg",
+   "author": "Thomas Gyselinck",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/423519600",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/stjohnswort-3.jpg",
+   "author": "Matt Lavin",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/80103100",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/stjohnswort-4.jpg",
+   "author": "Daniel VILLAFRUELA",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/80103099",
+   "site": "iNaturalist"
+  }
+ ],
+ "nettle": [
+  {
+   "file": "img/herbs/nettle-1.jpg",
+   "author": "V.S. Volkotrub",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/34682929",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/nettle-2.jpg",
+   "author": "Ольга Курякова",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/43498480",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/nettle-3.jpg",
+   "author": "no rights reserved",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/178302727",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/nettle-4.jpg",
+   "author": "AnneTanne",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/9844",
+   "site": "iNaturalist"
+  }
+ ],
+ "dandelion": [
+  {
+   "file": "img/herbs/dandelion-1.jpg",
+   "author": "Paul Reeves",
+   "license": "CC BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/23575133",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/dandelion-2.jpg",
+   "author": "Jason Grant",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/127729932",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/dandelion-3.jpg",
+   "author": "Yung-Lun Lin",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/349813880",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/dandelion-4.jpg",
+   "author": "Craig K. Hunt",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/384021664",
+   "site": "iNaturalist"
+  }
+ ],
+ "valerian": [
+  {
+   "file": "img/herbs/valerian-1.jpg",
+   "author": "dziugasindr",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/78028926",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/valerian-2.jpg",
+   "author": "dziugasindr",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/78028948",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/valerian-3.jpg",
+   "author": "Annette Le Faive",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/218963589",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/valerian-4.jpg",
+   "author": "Annette Le Faive",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/218963622",
+   "site": "iNaturalist"
+  }
+ ],
+ "thyme": [
+  {
+   "file": "img/herbs/thyme-1.jpg",
+   "author": "Viktoria",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/147682040",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/thyme-2.jpg",
+   "author": "Víctor Huete Pelaez",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/85608528",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/thyme-3.jpg",
+   "author": "josefwirth",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/154701696",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/thyme-4.jpg",
+   "author": "Sergei A. Antipov",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/83807741",
+   "site": "iNaturalist"
+  }
+ ],
+ "elder": [
+  {
+   "file": "img/herbs/elder-1.jpg",
+   "author": "Rison Thumboor",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/104695913",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/elder-2.jpg",
+   "author": "Matthew Zlatunich",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/46738658",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/elder-3.jpg",
+   "author": "Rea Orthner",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/138459240",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/elder-4.jpg",
+   "author": "Fluff Berger",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/962388",
+   "site": "iNaturalist"
+  }
+ ],
+ "plantain": [
+  {
+   "file": "img/herbs/plantain-1.jpg",
+   "author": "Miroslav Marić",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/384758481",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/plantain-2.jpg",
+   "author": "Valeria Olivas",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/269756628",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/plantain-3.jpg",
+   "author": "Petr Harant",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/289213594",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/plantain-4.jpg",
+   "author": "Rand Workman",
+   "license": "CC BY-SA",
+   "source": "https://www.inaturalist.org/photos/191710460",
+   "site": "iNaturalist"
+  }
+ ],
+ "wildgarlic": [
+  {
+   "file": "img/herbs/wildgarlic-1.jpg",
+   "author": "Ulrika",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/10674",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/wildgarlic-2.jpg",
+   "author": "Christian Guthier",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/10675",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/wildgarlic-3.jpg",
+   "author": "Hermann Falkner",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/10677",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/wildgarlic-4.jpg",
+   "author": "Phil Sellens",
+   "license": "CC BY",
+   "source": "https://www.inaturalist.org/photos/10678",
+   "site": "iNaturalist"
+  }
+ ],
+ "comfrey": [
+  {
+   "file": "img/herbs/comfrey-1.jpg",
+   "author": "Matthieu Gauvain",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/243496829",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/comfrey-2.jpg",
+   "author": "Valentina",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/34138966",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/comfrey-3.jpg",
+   "author": "Matthieu Gauvain",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/243496844",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/comfrey-4.jpg",
+   "author": "no rights reserved",
+   "license": "CC0",
+   "source": "https://www.inaturalist.org/photos/280438226",
+   "site": "iNaturalist"
+  }
+ ],
+ "bilberry": [
+  {
+   "file": "img/herbs/bilberry-1.jpg",
+   "author": "Дмитрий Власов",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/191246192",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/bilberry-2.jpg",
+   "author": "Lilia Efimtseva",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/207717529",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/bilberry-3.jpg",
+   "author": "bellahammy82",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/47283545",
+   "site": "iNaturalist"
+  },
+  {
+   "file": "img/herbs/bilberry-4.jpg",
+   "author": "P Närhi",
+   "license": "CC BY-NC",
+   "source": "https://www.inaturalist.org/photos/139768674",
+   "site": "iNaturalist"
+  }
+ ]
+}
