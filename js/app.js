@@ -320,6 +320,9 @@
       li.addEventListener("click", () => selectHerb(li.dataset.id, { latlng })));
   }
 
+  const legendEl = document.getElementById("legend");
+  map.on("popupopen", () => legendEl.classList.add("hidden"));
+  map.on("popupclose", () => legendEl.classList.remove("hidden"));
   map.on("click", (e) => { document.getElementById("mapHint").classList.add("gone"); showPointPopup(e.latlng); });
 
   let locationMarker = null;
@@ -359,8 +362,21 @@
       if (picks.length === 5) break;
     }
     if (!picks.length) return alert(`No good spots for ${sel.name} in this view. Try zooming out.`);
-    picks.forEach(([v, x, y], i) => {
-      const ll = map.unproject([x + OVMETA.x0 + 0.5, y + OVMETA.y0 + 0.5], 9);
+    // refine each ~200 m overview cell to its best 50 m cell (4 x 4 detail cells)
+    const refined = await Promise.all(picks.map(async ([v, x, y]) => {
+      const gx0 = (x + OVMETA.x0) * 4, gy0 = (y + OVMETA.y0) * 4;
+      let best = null;
+      try {
+        const buf = await getChunk(gx0 >> 8, gy0 >> 8);
+        if (buf) for (let dy = 0; dy < 4; dy++) for (let dx = 0; dx < 4; dx++) {
+          const gx = gx0 + dx, gy = gy0 + dy, s = scoreCell(sel.id, buf, (gy & 255) * 256 + (gx & 255), gx, gy);
+          if (s !== 255 && (!best || s > best[0])) best = [s, gx, gy];
+        }
+      } catch (e) { /* fall back to the overview cell centre */ }
+      return best ? map.unproject([best[1] + 0.5, best[2] + 0.5], 11) : map.unproject([x + OVMETA.x0 + 0.5, y + OVMETA.y0 + 0.5], 9);
+    }));
+    picks.forEach((pk, i) => {
+      const ll = refined[i];
       L.marker(ll, { icon: L.divIcon({ className: "spot", html: `<span>${i + 1}</span>`, iconSize: [26, 26] }) })
         .on("click", () => showPointPopup(ll, `Spot ${i + 1}`)).addTo(spotLayer);
     });

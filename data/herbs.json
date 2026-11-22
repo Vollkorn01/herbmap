@@ -655,17 +655,17 @@
     1500
    ],
    "moisture": [
-    0.5,
+    0.45,
     0.85
    ],
    "light": "shade",
    "lime": [
     "lime",
-    0.5
+    0.4
    ],
    "nutrients": [
     "rich",
-    0.7
+    0.4
    ],
    "forest": "broadleaf",
    "near": {
@@ -1090,6 +1090,8 @@
   "lookalikes": "Easy to recognise by heart-shaped leaves and flowers hanging from a pale, wing-like bract.",
   "model": {
    "habitats": {
+    "6.3.4": 0.4,
+    "6.3.5": 0.5,
     "6.3.2": 1,
     "6.3.1": 0.8,
     "6.2.1": 0.5,
@@ -1109,7 +1111,7 @@
     0.25,
     0.65
    ],
-   "light": "half",
+   "light": "any",
    "lime": [
     "lime",
     0.3
@@ -1117,7 +1119,8 @@
    "warm": 0.3,
    "forest": "broadleaf",
    "near": {
-    "buildings": 0.3
+    "buildings": 0.3,
+    "hedge": 0.4
    }
   }
  },
@@ -1859,12 +1862,17 @@
     "6.5": 1,
     "6.5.1": 1,
     "2.4.1": 0.5,
-    "5.3": 0.4,
+    "5.3": 0.5,
     "6.4": 0.5,
-    "6.2.2": 0.4,
-    "3.2.1": 0.4,
+    "6.2.2": 0.5,
+    "3.2.1": 0.5,
     "9.1": 0.5,
-    "6.6": 0.2
+    "6": 0.35,
+    "6.6": 0.3,
+    "6.3.6": 0.6,
+    "6.3.7": 0.4,
+    "5.2": 0.5,
+    "7.1": 0.3
    },
    "elev": [
     190,
@@ -1876,7 +1884,7 @@
     0.2,
     0.9
    ],
-   "light": "open",
+   "light": "any",
    "lime": [
     "acid",
     0.4
